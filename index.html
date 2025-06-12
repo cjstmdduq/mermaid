@@ -1,360 +1,267 @@
+<!-- 이게 제일 근접(여기서 개선합시다.) -->
+
 <!DOCTYPE html>
-<!-- saved from url=(0070)file:///Users/cjstmdduq/Downloads/mermaid%20reader/mermaid-reader.html -->
-<html lang="ko"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>머메이드 리더</title>
-    <script src="./머메이드 리더_files/saved_resource"></script>
-    <script src="./머메이드 리더_files/mermaid.min.js"></script>
-    <script src="./머메이드 리더_files/html2canvas.min.js"></script>
-<style>*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/* ! tailwindcss v3.4.16 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.container{width:100%}@media (min-width: 640px){.container{max-width:640px}}@media (min-width: 768px){.container{max-width:768px}}@media (min-width: 1024px){.container{max-width:1024px}}@media (min-width: 1280px){.container{max-width:1280px}}@media (min-width: 1536px){.container{max-width:1536px}}.fixed{position:fixed}.absolute{position:absolute}.relative{position:relative}.inset-0{inset:0px}.z-50{z-index:50}.mx-auto{margin-left:auto;margin-right:auto}.mb-4{margin-bottom:1rem}.mb-8{margin-bottom:2rem}.mt-4{margin-top:1rem}.mt-8{margin-top:2rem}.inline-block{display:inline-block}.flex{display:flex}.grid{display:grid}.hidden{display:none}.h-6{height:1.5rem}.h-96{height:24rem}.h-full{height:100%}.max-h-\[90vh\]{max-height:90vh}.min-h-\[400px\]{min-height:400px}.w-6{width:1.5rem}.w-full{width:100%}.max-w-4xl{max-width:56rem}.max-w-6xl{max-width:72rem}.cursor-move{cursor:move}.grid-cols-1{grid-template-columns:repeat(1, minmax(0, 1fr))}.grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.items-center{align-items:center}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.gap-2{gap:0.5rem}.gap-3{gap:0.75rem}.gap-6{gap:1.5rem}.overflow-auto{overflow:auto}.rounded-lg{border-radius:0.5rem}.border{border-width:1px}.border-2{border-width:2px}.border-blue-500{--tw-border-opacity:1;border-color:rgb(59 130 246 / var(--tw-border-opacity, 1))}.border-gray-200{--tw-border-opacity:1;border-color:rgb(229 231 235 / var(--tw-border-opacity, 1))}.border-gray-300{--tw-border-opacity:1;border-color:rgb(209 213 219 / var(--tw-border-opacity, 1))}.bg-black{--tw-bg-opacity:1;background-color:rgb(0 0 0 / var(--tw-bg-opacity, 1))}.bg-blue-100{--tw-bg-opacity:1;background-color:rgb(219 234 254 / var(--tw-bg-opacity, 1))}.bg-blue-500{--tw-bg-opacity:1;background-color:rgb(59 130 246 / var(--tw-bg-opacity, 1))}.bg-gray-50{--tw-bg-opacity:1;background-color:rgb(249 250 251 / var(--tw-bg-opacity, 1))}.bg-gray-500{--tw-bg-opacity:1;background-color:rgb(107 114 128 / var(--tw-bg-opacity, 1))}.bg-green-100{--tw-bg-opacity:1;background-color:rgb(220 252 231 / var(--tw-bg-opacity, 1))}.bg-green-500{--tw-bg-opacity:1;background-color:rgb(34 197 94 / var(--tw-bg-opacity, 1))}.bg-pink-100{--tw-bg-opacity:1;background-color:rgb(252 231 243 / var(--tw-bg-opacity, 1))}.bg-purple-500{--tw-bg-opacity:1;background-color:rgb(168 85 247 / var(--tw-bg-opacity, 1))}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity, 1))}.bg-yellow-100{--tw-bg-opacity:1;background-color:rgb(254 249 195 / var(--tw-bg-opacity, 1))}.bg-opacity-20{--tw-bg-opacity:0.2}.bg-opacity-50{--tw-bg-opacity:0.5}.p-4{padding:1rem}.p-6{padding:1.5rem}.px-4{padding-left:1rem;padding-right:1rem}.py-2{padding-top:0.5rem;padding-bottom:0.5rem}.text-center{text-align:center}.font-mono{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace}.text-3xl{font-size:1.875rem;line-height:2.25rem}.text-sm{font-size:0.875rem;line-height:1.25rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.font-bold{font-weight:700}.font-medium{font-weight:500}.font-semibold{font-weight:600}.text-blue-700{--tw-text-opacity:1;color:rgb(29 78 216 / var(--tw-text-opacity, 1))}.text-gray-400{--tw-text-opacity:1;color:rgb(156 163 175 / var(--tw-text-opacity, 1))}.text-gray-500{--tw-text-opacity:1;color:rgb(107 114 128 / var(--tw-text-opacity, 1))}.text-gray-700{--tw-text-opacity:1;color:rgb(55 65 81 / var(--tw-text-opacity, 1))}.text-gray-800{--tw-text-opacity:1;color:rgb(31 41 55 / var(--tw-text-opacity, 1))}.text-green-700{--tw-text-opacity:1;color:rgb(21 128 61 / var(--tw-text-opacity, 1))}.text-pink-700{--tw-text-opacity:1;color:rgb(190 24 93 / var(--tw-text-opacity, 1))}.text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.text-yellow-700{--tw-text-opacity:1;color:rgb(161 98 7 / var(--tw-text-opacity, 1))}.shadow-md{--tw-shadow:0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-xl{--tw-shadow:0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.transition-colors{transition-property:color, background-color, border-color, fill, stroke, -webkit-text-decoration-color;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.hover\:bg-blue-200:hover{--tw-bg-opacity:1;background-color:rgb(191 219 254 / var(--tw-bg-opacity, 1))}.hover\:bg-blue-600:hover{--tw-bg-opacity:1;background-color:rgb(37 99 235 / var(--tw-bg-opacity, 1))}.hover\:bg-gray-600:hover{--tw-bg-opacity:1;background-color:rgb(75 85 99 / var(--tw-bg-opacity, 1))}.hover\:bg-green-200:hover{--tw-bg-opacity:1;background-color:rgb(187 247 208 / var(--tw-bg-opacity, 1))}.hover\:bg-green-600:hover{--tw-bg-opacity:1;background-color:rgb(22 163 74 / var(--tw-bg-opacity, 1))}.hover\:bg-pink-200:hover{--tw-bg-opacity:1;background-color:rgb(251 207 232 / var(--tw-bg-opacity, 1))}.hover\:bg-purple-600:hover{--tw-bg-opacity:1;background-color:rgb(147 51 234 / var(--tw-bg-opacity, 1))}.hover\:bg-yellow-200:hover{--tw-bg-opacity:1;background-color:rgb(254 240 138 / var(--tw-bg-opacity, 1))}.hover\:text-gray-700:hover{--tw-text-opacity:1;color:rgb(55 65 81 / var(--tw-text-opacity, 1))}.focus\:outline-none:focus{outline:2px solid transparent;outline-offset:2px}.focus\:ring-2:focus{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000)}.focus\:ring-blue-500:focus{--tw-ring-opacity:1;--tw-ring-color:rgb(59 130 246 / var(--tw-ring-opacity, 1))}@media (min-width: 768px){.md\:grid-cols-4{grid-template-columns:repeat(4, minmax(0, 1fr))}}@media (min-width: 1024px){.lg\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}}</style></head>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>머메이드 리더 – 고화질 + 다운로드</title>
+
+  <!-- Tailwind -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Mermaid -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/10.6.1/mermaid.min.js"></script>
+
+  <!-- canvg (UMD 빌드 → window.canvg 객체 제공) -->
+  <script src="https://cdn.jsdelivr.net/npm/canvg@4/dist/browser/canvg.min.js"></script>
+
+  <style>
+    :root { --padding: 50px; }
+    .editor-container { height: calc(100vh - 80px); }
+    .editor-sidebar { overflow-y: auto; border-right: 1px solid #e5e7eb; }
+    .preview-container { overflow: auto; background:#f9fafb; position:relative; }
+    .preview-content{ min-height:100%; padding:2rem; display:flex; align-items:flex-start; justify-content:flex-start; transform-origin:top left; }
+    #mermaidOutput{ min-width:100%; min-height:100%; display:inline-block; }
+    #mermaidOutput svg{ overflow:visible!important; max-width:none!important; height:auto!important; transform-origin:top left; }
+    ::-webkit-scrollbar{ width:8px; height:8px; }
+    ::-webkit-scrollbar-track{ background:#f1f1f1; }
+    ::-webkit-scrollbar-thumb{ background:#888; border-radius:4px; }
+    ::-webkit-scrollbar-thumb:hover{ background:#555; }
+    .action-panel{ position:fixed; bottom:20px; right:20px; z-index:10; background:white; padding:8px; border-radius:8px; box-shadow:0 2px 4px rgba(0,0,0,.1); }
+  </style>
+</head>
 <body class="bg-gray-50">
-    <div class="container mx-auto p-6 max-w-6xl">
-        <h1 class="text-3xl font-bold text-gray-800 mb-8 text-center">🧜‍♀️ 머메이드 리더</h1>
-        
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
-            <!-- 입력 영역 -->
-            <div class="bg-white rounded-lg shadow-md p-6">
-                <h2 class="text-xl font-semibold text-gray-700 mb-4">머메이드 코드 입력</h2>
-                <textarea id="mermaidInput" class="w-full h-96 p-4 border border-gray-300 rounded-lg font-mono text-sm focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="머메이드 코드를 입력해줘...
-
-예시:
-graph TD
-    A[시작] --&gt; B{조건}
-    B --&gt;|Yes| C[실행]
-    B --&gt;|No| D[종료]
-    C --&gt; D"></textarea>
-                <button onclick="renderMermaid()" class="mt-4 w-full bg-blue-500 text-white py-2 px-4 rounded-lg hover:bg-blue-600 transition-colors font-medium">
-                    시각화하기
-                </button>
-            </div>
-            
-            <!-- 출력 영역 -->
-            <div class="bg-white rounded-lg shadow-md p-6">
-                <div class="flex justify-between items-center mb-4">
-                    <h2 class="text-xl font-semibold text-gray-700">미리보기</h2>
-                    <div class="flex gap-2">
-                        <button onclick="downloadFullImage()" class="bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-600 transition-colors text-sm">
-                            전체 다운로드
-                        </button>
-                        <button onclick="openCropModal()" class="bg-purple-500 text-white px-4 py-2 rounded-lg hover:bg-purple-600 transition-colors text-sm">
-                            영역 자르기
-                        </button>
-                    </div>
-                </div>
-                <div class="border border-gray-200 rounded-lg p-4 min-h-[400px] flex items-center justify-center bg-gray-50 overflow-auto">
-                    <div id="mermaidOutput" class="text-gray-400"><div class="mermaid" data-processed="true"><svg aria-roledescription="flowchart-v2" role="graphics-document document" viewBox="-8 -8 967.00390625 6565.59375" style="max-width: 967.00390625px;" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="100%" id="mermaid-1749012440161"><style>#mermaid-1749012440161{font-family:"trebuchet ms",verdana,arial,sans-serif;font-size:16px;fill:#333;}#mermaid-1749012440161 .error-icon{fill:#552222;}#mermaid-1749012440161 .error-text{fill:#552222;stroke:#552222;}#mermaid-1749012440161 .edge-thickness-normal{stroke-width:2px;}#mermaid-1749012440161 .edge-thickness-thick{stroke-width:3.5px;}#mermaid-1749012440161 .edge-pattern-solid{stroke-dasharray:0;}#mermaid-1749012440161 .edge-pattern-dashed{stroke-dasharray:3;}#mermaid-1749012440161 .edge-pattern-dotted{stroke-dasharray:2;}#mermaid-1749012440161 .marker{fill:#6B7280;stroke:#6B7280;}#mermaid-1749012440161 .marker.cross{stroke:#6B7280;}#mermaid-1749012440161 svg{font-family:"trebuchet ms",verdana,arial,sans-serif;font-size:16px;}#mermaid-1749012440161 .label{font-family:"trebuchet ms",verdana,arial,sans-serif;color:#333;}#mermaid-1749012440161 .cluster-label text{fill:#333;}#mermaid-1749012440161 .cluster-label span,#mermaid-1749012440161 p{color:#333;}#mermaid-1749012440161 .label text,#mermaid-1749012440161 span,#mermaid-1749012440161 p{fill:#333;color:#333;}#mermaid-1749012440161 .node rect,#mermaid-1749012440161 .node circle,#mermaid-1749012440161 .node ellipse,#mermaid-1749012440161 .node polygon,#mermaid-1749012440161 .node path{fill:#ECECFF;stroke:#9370DB;stroke-width:1px;}#mermaid-1749012440161 .flowchart-label text{text-anchor:middle;}#mermaid-1749012440161 .node .label{text-align:center;}#mermaid-1749012440161 .node.clickable{cursor:pointer;}#mermaid-1749012440161 .arrowheadPath{fill:#333333;}#mermaid-1749012440161 .edgePath .path{stroke:#6B7280;stroke-width:2.0px;}#mermaid-1749012440161 .flowchart-link{stroke:#6B7280;fill:none;}#mermaid-1749012440161 .edgeLabel{background-color:#e8e8e8;text-align:center;}#mermaid-1749012440161 .edgeLabel rect{opacity:0.5;background-color:#e8e8e8;fill:#e8e8e8;}#mermaid-1749012440161 .labelBkg{background-color:rgba(232, 232, 232, 0.5);}#mermaid-1749012440161 .cluster rect{fill:#ffffde;stroke:#aaaa33;stroke-width:1px;}#mermaid-1749012440161 .cluster text{fill:#333;}#mermaid-1749012440161 .cluster span,#mermaid-1749012440161 p{color:#333;}#mermaid-1749012440161 div.mermaidTooltip{position:absolute;text-align:center;max-width:200px;padding:2px;font-family:"trebuchet ms",verdana,arial,sans-serif;font-size:12px;background:#F3F4F6;border:1px solid #aaaa33;border-radius:2px;pointer-events:none;z-index:100;}#mermaid-1749012440161 .flowchartTitleText{text-anchor:middle;font-size:18px;fill:#333;}#mermaid-1749012440161 :root{--mermaid-font-family:"trebuchet ms",verdana,arial,sans-serif;}</style><g><marker orient="auto" markerHeight="12" markerWidth="12" markerUnits="userSpaceOnUse" refY="5" refX="6" viewBox="0 0 10 10" class="marker flowchart" id="mermaid-1749012440161_flowchart-pointEnd"><path style="stroke-width: 1; stroke-dasharray: 1, 0;" class="arrowMarkerPath" d="M 0 0 L 10 5 L 0 10 z"></path></marker><marker orient="auto" markerHeight="12" markerWidth="12" markerUnits="userSpaceOnUse" refY="5" refX="4.5" viewBox="0 0 10 10" class="marker flowchart" id="mermaid-1749012440161_flowchart-pointStart"><path style="stroke-width: 1; stroke-dasharray: 1, 0;" class="arrowMarkerPath" d="M 0 5 L 10 10 L 10 0 z"></path></marker><marker orient="auto" markerHeight="11" markerWidth="11" markerUnits="userSpaceOnUse" refY="5" refX="11" viewBox="0 0 10 10" class="marker flowchart" id="mermaid-1749012440161_flowchart-circleEnd"><circle style="stroke-width: 1; stroke-dasharray: 1, 0;" class="arrowMarkerPath" r="5" cy="5" cx="5"></circle></marker><marker orient="auto" markerHeight="11" markerWidth="11" markerUnits="userSpaceOnUse" refY="5" refX="-1" viewBox="0 0 10 10" class="marker flowchart" id="mermaid-1749012440161_flowchart-circleStart"><circle style="stroke-width: 1; stroke-dasharray: 1, 0;" class="arrowMarkerPath" r="5" cy="5" cx="5"></circle></marker><marker orient="auto" markerHeight="11" markerWidth="11" markerUnits="userSpaceOnUse" refY="5.2" refX="12" viewBox="0 0 11 11" class="marker cross flowchart" id="mermaid-1749012440161_flowchart-crossEnd"><path style="stroke-width: 2; stroke-dasharray: 1, 0;" class="arrowMarkerPath" d="M 1,1 l 9,9 M 10,1 l -9,9"></path></marker><marker orient="auto" markerHeight="11" markerWidth="11" markerUnits="userSpaceOnUse" refY="5.2" refX="-1" viewBox="0 0 11 11" class="marker cross flowchart" id="mermaid-1749012440161_flowchart-crossStart"><path style="stroke-width: 2; stroke-dasharray: 1, 0;" class="arrowMarkerPath" d="M 1,1 l 9,9 M 10,1 l -9,9"></path></marker><g class="root"><g class="clusters"></g><g class="edgePaths"><path marker-end="url(#mermaid-1749012440161_flowchart-pointEnd)" style="fill:none;" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-A LE-B" id="L-A-B-0" d="M576.879,39L576.879,43.167C576.879,47.333,576.879,55.667,576.945,63.2C577.011,70.734,577.143,77.467,577.209,80.834L577.275,84.201"></path><path marker-end="url(#mermaid-1749012440161_flowchart-pointEnd)" style="fill:none;" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-B LE-C" id="L-B-C-0" d="M539.774,204.458L527.602,216.809C515.429,229.16,491.084,253.861,478.911,271.495C466.738,289.129,466.738,299.696,466.738,304.979L466.738,310.263"></path><path marker-end="url(#mermaid-1749012440161_flowchart-pointEnd)" style="fill:none;" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-B LE-D" id="L-B-D-0" d="M614.983,204.458L626.989,216.809C638.995,229.16,663.007,253.861,675.014,271.495C687.02,289.129,687.02,299.696,687.02,304.979L687.02,310.263"></path><path marker-end="url(#mermaid-1749012440161_flowchart-pointEnd)" style="fill:none;" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-C LE-E" id="L-C-E-0" d="M466.738,354.563L466.738,358.729C466.738,362.896,466.738,371.229,466.738,378.679C466.738,386.129,466.738,392.696,466.738,395.979L466.738,399.263"></path><path marker-end="url(#mermaid-1749012440161_flowchart-pointEnd)" style="fill:none;" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-E LE-F" id="L-E-F-0" d="M466.738,443.563L466.738,447.729C466.738,451.896,466.738,460.229,466.804,467.763C466.87,475.296,467.002,482.03,467.068,485.397L467.134,488.764"></path><path marker-end="url(#mermaid-1749012440161_flowchart-pointEnd)" style="fill:none;" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-F LE-G" id="L-F-G-0" d="M498.792,656.587L504.214,667.929C509.636,679.271,520.48,701.956,525.902,718.582C531.324,735.207,531.324,745.774,531.324,751.057L531.324,756.341"></path><path marker-end="url(#mermaid-1749012440161_flowchart-pointEnd)" style="fill:none;" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-F LE-H" id="L-F-H-0" d="M435.685,656.587L430.096,667.929C424.507,679.271,413.33,701.956,407.741,722.715C402.152,743.474,402.152,762.307,402.152,779.141C402.152,795.974,402.152,810.807,407.472,821.889C412.792,832.972,423.432,840.303,428.752,843.968L434.072,847.634"></path><path marker-end="url(#mermaid-1749012440161_flowchart-pointEnd)" style="fill:none;" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-G LE-H" id="L-G-H-0" d="M531.324,800.641L531.324,804.807C531.324,808.974,531.324,817.307,526.004,825.139C520.684,832.972,510.044,840.303,504.724,843.968L499.404,847.634"></path><path marker-end="url(#mermaid-1749012440161_flowchart-pointEnd)" style="fill:none;" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-H LE-I" id="L-H-I-0" d="M466.738,889.641L466.738,893.807C466.738,897.974,466.738,906.307,466.804,913.841C466.87,921.374,467.002,928.108,467.068,931.475L467.134,934.842"></path><path marker-end="url(#mermaid-1749012440161_flowchart-pointEnd)" style="fill:none;" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-I LE-J" id="L-I-J-0" d="M439.386,1045.132L432.941,1053.857C426.497,1062.583,413.608,1080.034,407.229,1092.126C400.851,1104.218,400.983,1110.952,401.049,1114.319L401.115,1117.685"></path><path marker-end="url(#mermaid-1749012440161_flowchart-pointEnd)" style="fill:none;" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-J LE-K" id="L-J-K-0" d="M429.829,1288.452L434.318,1299.304C438.807,1310.155,447.784,1331.859,452.273,1347.994C456.762,1364.129,456.762,1374.696,456.762,1379.979L456.762,1385.263"></path><path marker-end="url(#mermaid-1749012440161_flowchart-pointEnd)" style="fill:none;" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-J LE-L" id="L-J-L-0" d="M372.608,1288.452L367.953,1299.304C363.297,1310.155,353.987,1331.859,349.331,1352.127C344.676,1372.396,344.676,1391.229,344.676,1408.063C344.676,1424.896,344.676,1439.729,349.231,1450.763C353.787,1461.797,362.899,1469.032,367.454,1472.649L372.01,1476.267"></path><path marker-end="url(#mermaid-1749012440161_flowchart-pointEnd)" style="fill:none;" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-K LE-L" id="L-K-L-0" d="M456.762,1429.563L456.762,1433.729C456.762,1437.896,456.762,1446.229,452.206,1454.013C447.65,1461.797,438.539,1469.032,433.983,1472.649L429.428,1476.267"></path><path marker-end="url(#mermaid-1749012440161_flowchart-pointEnd)" style="fill:none;" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-L LE-M" id="L-L-M-0" d="M400.719,1518.563L400.719,1522.729C400.719,1526.896,400.719,1535.229,405.776,1548.474C410.833,1561.718,420.947,1579.874,426.004,1588.952L431.061,1598.03"></path><path marker-end="url(#mermaid-1749012440161_flowchart-pointEnd)" style="fill:none;" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-M LE-I" id="L-M-I-0" d="M512.924,1614.748L523.907,1602.884C534.891,1591.02,556.858,1567.291,567.841,1548.01C578.824,1528.729,578.824,1513.896,578.824,1499.063C578.824,1484.229,578.824,1469.396,578.824,1454.563C578.824,1439.729,578.824,1424.896,578.824,1408.063C578.824,1391.229,578.824,1372.396,578.824,1340.639C578.824,1308.883,578.824,1264.203,578.824,1221.523C578.824,1178.844,578.824,1138.164,567.009,1108.202C555.193,1078.239,531.562,1058.994,519.747,1049.371L507.931,1039.748"></path><path marker-end="url(#mermaid-1749012440161_flowchart-pointEnd)" style="fill:none;" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-M LE-N" id="L-M-N-0" d="M467.238,1757.703L467.155,1763.786C467.072,1769.87,466.905,1782.036,466.822,1793.403C466.738,1804.77,466.738,1815.336,466.738,1820.62L466.738,1825.903"></path><path marker-end="url(#mermaid-1749012440161_flowchart-pointEnd)" style="fill:none;" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-N LE-O" id="L-N-O-0" d="M466.738,1870.203L466.738,1874.37C466.738,1878.536,466.738,1886.87,466.804,1894.403C466.87,1901.937,467.002,1908.67,467.068,1912.037L467.134,1915.404"></path><path marker-end="url(#mermaid-1749012440161_flowchart-pointEnd)" style="fill:none;" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-O LE-P" id="L-O-P-0" d="M415.212,2016.427L379.796,2031.181C344.381,2045.935,273.55,2075.444,238.134,2095.482C202.719,2115.52,202.719,2126.086,202.719,2131.37L202.719,2136.653"></path><path marker-end="url(#mermaid-1749012440161_flowchart-pointEnd)" style="fill:none;" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-O LE-Q" id="L-O-Q-0" d="M511.023,2024.669L530.531,2038.05C550.039,2051.43,589.054,2078.192,608.562,2096.856C628.07,2115.52,628.07,2126.086,628.07,2131.37L628.07,2136.653"></path><path marker-end="url(#mermaid-1749012440161_flowchart-pointEnd)" style="fill:none;" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-P LE-R" id="L-P-R-0" d="M202.719,2180.953L202.719,2185.12C202.719,2189.286,202.719,2197.62,202.719,2205.07C202.719,2212.52,202.719,2219.086,202.719,2222.37L202.719,2225.653"></path><path marker-end="url(#mermaid-1749012440161_flowchart-pointEnd)" style="fill:none;" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-Q LE-S" id="L-Q-S-0" d="M628.07,2180.953L628.07,2185.12C628.07,2189.286,628.07,2197.62,628.07,2205.07C628.07,2212.52,628.07,2219.086,628.07,2222.37L628.07,2225.653"></path><path marker-end="url(#mermaid-1749012440161_flowchart-pointEnd)" style="fill:none;" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-R LE-T" id="L-R-T-0" d="M202.719,2269.953L202.719,2274.12C202.719,2278.286,202.719,2286.62,236.421,2304.273C270.123,2321.925,337.528,2348.898,371.23,2362.384L404.932,2375.87"></path><path marker-end="url(#mermaid-1749012440161_flowchart-pointEnd)" style="fill:none;" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-S LE-T" id="L-S-T-0" d="M628.07,2269.953L628.07,2274.12C628.07,2278.286,628.07,2286.62,610.098,2302.645C592.125,2318.671,556.18,2342.389,538.207,2354.248L520.235,2366.107"></path><path marker-end="url(#mermaid-1749012440161_flowchart-pointEnd)" style="fill:none;" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-T LE-U" id="L-T-U-0" d="M433.332,2447.078L424.605,2458.812C415.879,2470.547,398.426,2494.016,389.699,2511.033C380.973,2528.051,380.973,2538.618,380.973,2543.901L380.973,2549.184"></path><path marker-end="url(#mermaid-1749012440161_flowchart-pointEnd)" style="fill:none;" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-T LE-V" id="L-T-V-0" d="M501.145,2447.078L509.704,2458.812C518.264,2470.547,535.384,2494.016,543.944,2511.033C552.504,2528.051,552.504,2538.618,552.504,2543.901L552.504,2549.184"></path><path marker-end="url(#mermaid-1749012440161_flowchart-pointEnd)" style="fill:none;" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-U LE-W" id="L-U-W-0" d="M380.973,2593.484L380.973,2597.651C380.973,2601.818,380.973,2610.151,388.219,2618.078C395.465,2626.004,409.958,2633.524,417.205,2637.284L424.451,2641.043"></path><path marker-end="url(#mermaid-1749012440161_flowchart-pointEnd)" style="fill:none;" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-V LE-W" id="L-V-W-0" d="M552.504,2593.484L552.504,2597.651C552.504,2601.818,552.504,2610.151,545.257,2618.078C538.011,2626.004,523.518,2633.524,516.272,2637.284L509.025,2641.043"></path><path marker-end="url(#mermaid-1749012440161_flowchart-pointEnd)" style="fill:none;" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-W LE-X" id="L-W-X-0" d="M466.738,2682.484L466.738,2686.651C466.738,2690.818,466.738,2699.151,466.804,2706.685C466.87,2714.218,467.002,2720.952,467.068,2724.319L467.134,2727.685"></path><path marker-end="url(#mermaid-1749012440161_flowchart-pointEnd)" style="fill:none;" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-X LE-Y" id="L-X-Y-0" d="M467.238,2893.516L467.155,2897.599C467.072,2901.682,466.905,2909.849,466.822,2917.216C466.738,2924.582,466.738,2931.149,466.738,2934.432L466.738,2937.716"></path><path marker-end="url(#mermaid-1749012440161_flowchart-pointEnd)" style="fill:none;" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-Y LE-Z" id="L-Y-Z-0" d="M466.738,2982.016L466.738,2986.182C466.738,2990.349,466.738,2998.682,466.738,3006.132C466.738,3013.582,466.738,3020.149,466.738,3023.432L466.738,3026.716"></path><path marker-end="url(#mermaid-1749012440161_flowchart-pointEnd)" style="fill:none;" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-Z LE-AA" id="L-Z-AA-0" d="M466.738,3071.016L466.738,3075.182C466.738,3079.349,466.738,3087.682,466.804,3095.216C466.87,3102.749,467.002,3109.483,467.068,3112.85L467.134,3116.217"></path><path marker-end="url(#mermaid-1749012440161_flowchart-pointEnd)" style="fill:none;" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-AA LE-BB" id="L-AA-BB-0" d="M432.136,3238.975L421.808,3250.909C411.481,3262.843,390.826,3286.711,380.499,3308.061C370.172,3329.411,370.172,3348.245,370.172,3365.078C370.172,3381.911,370.172,3396.745,370.172,3417.66C370.172,3438.574,370.172,3465.571,370.172,3479.069L370.172,3492.567"></path><path marker-end="url(#mermaid-1749012440161_flowchart-pointEnd)" style="fill:none;" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-AA LE-CC" id="L-AA-CC-0" d="M502.341,3238.975L512.502,3250.909C522.662,3262.843,542.983,3286.711,553.144,3303.928C563.305,3321.145,563.305,3331.711,563.305,3336.995L563.305,3342.278"></path><path marker-end="url(#mermaid-1749012440161_flowchart-pointEnd)" style="fill:none;" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-BB LE-DD" id="L-BB-DD-0" d="M380.894,3536.867L389.901,3553.249C398.908,3569.63,416.923,3602.393,425.93,3624.058C434.938,3645.723,434.938,3656.29,434.938,3661.573L434.938,3666.856"></path><path marker-end="url(#mermaid-1749012440161_flowchart-pointEnd)" style="fill:none;" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-CC LE-EE" id="L-CC-EE-0" d="M563.305,3386.578L563.305,3390.745C563.305,3394.911,563.305,3403.245,563.371,3410.778C563.437,3418.312,563.569,3425.045,563.635,3428.412L563.701,3431.779"></path><path marker-end="url(#mermaid-1749012440161_flowchart-pointEnd)" style="fill:none;" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-EE LE-FF" id="L-EE-FF-0" d="M505.581,3540.432L464.546,3556.22C423.512,3572.007,341.444,3603.582,300.409,3628.786C259.375,3653.99,259.375,3672.823,259.375,3689.656C259.375,3706.49,259.375,3721.323,259.375,3743.576C259.375,3765.828,259.375,3795.5,259.375,3827.172C259.375,3858.844,259.375,3892.516,259.375,3918.768C259.375,3945.021,259.375,3963.854,259.375,3980.688C259.375,3997.521,259.375,4012.354,259.375,4033.943C259.375,4055.531,259.375,4083.875,259.375,4114.219C259.375,4144.563,259.375,4176.906,259.375,4202.495C259.375,4228.083,259.375,4246.917,259.375,4263.75C259.375,4280.583,259.375,4295.417,259.375,4319.224C259.375,4343.031,259.375,4375.813,259.375,4410.594C259.375,4445.375,259.375,4482.156,259.375,4509.964C259.375,4537.771,259.375,4556.604,259.375,4575.438C259.375,4594.271,259.375,4613.104,259.375,4638.693C259.375,4664.281,259.375,4696.625,259.375,4728.969C259.375,4761.313,259.375,4793.656,259.375,4819.245C259.375,4844.833,259.375,4863.667,259.375,4880.5C259.375,4897.333,259.375,4912.167,259.375,4927C259.375,4941.833,259.375,4956.667,259.375,4971.5C259.375,4986.333,259.375,5001.167,259.375,5025.464C259.375,5049.76,259.375,5083.521,259.375,5119.281C259.375,5155.042,259.375,5192.802,259.375,5221.099C259.375,5249.396,259.375,5268.229,259.375,5287.063C259.375,5305.896,259.375,5324.729,259.375,5351.471C259.375,5378.214,259.375,5412.865,259.375,5447.516C259.375,5482.167,259.375,5516.818,259.375,5543.56C259.375,5570.302,259.375,5589.135,259.375,5605.969C259.375,5622.802,259.375,5637.635,259.375,5652.469C259.375,5667.302,259.375,5682.135,259.375,5696.969C259.375,5711.802,259.375,5726.635,259.375,5748.224C259.375,5769.813,259.375,5798.156,259.375,5828.5C259.375,5858.844,259.375,5891.188,259.375,5916.776C259.375,5942.365,259.375,5961.198,259.375,5978.031C259.375,5994.865,259.375,6009.698,259.375,6031.286C259.375,6052.875,259.375,6081.219,259.375,6111.563C259.375,6141.906,259.375,6174.25,259.375,6199.839C259.375,6225.427,259.375,6244.26,259.375,6261.094C259.375,6277.927,259.375,6292.76,325.32,6306.869C391.266,6320.977,523.157,6334.361,589.102,6341.052L655.047,6347.744"></path><path marker-end="url(#mermaid-1749012440161_flowchart-pointEnd)" style="fill:none;" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-EE LE-GG" id="L-EE-GG-0" d="M592.467,3569.994L598.4,3580.855C604.334,3591.715,616.202,3613.436,622.136,3629.579C628.07,3645.723,628.07,3656.29,628.07,3661.573L628.07,3666.856"></path><path marker-end="url(#mermaid-1749012440161_flowchart-pointEnd)" style="fill:none;" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-DD LE-HH" id="L-DD-HH-0" d="M434.938,3711.156L434.938,3715.323C434.938,3719.49,434.938,3727.823,435.004,3735.356C435.07,3742.89,435.202,3749.624,435.268,3752.99L435.334,3756.357"></path><path marker-end="url(#mermaid-1749012440161_flowchart-pointEnd)" style="fill:none;" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-HH LE-II" id="L-HH-II-0" d="M399.154,3853.404L383.091,3865.535C367.027,3877.665,334.9,3901.926,325.603,3919.66C316.306,3937.394,329.838,3948.601,336.605,3954.204L343.371,3959.807"></path><path marker-end="url(#mermaid-1749012440161_flowchart-pointEnd)" style="fill:none;" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-HH LE-JJ" id="L-HH-JJ-0" d="M460.211,3864.914L466.627,3875.127C473.043,3885.339,485.875,3905.763,505.601,3921.788C525.327,3937.814,551.946,3949.44,565.256,3955.253L578.566,3961.066"></path><path marker-end="url(#mermaid-1749012440161_flowchart-pointEnd)" style="fill:none;" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-GG LE-KK" id="L-GG-KK-0" d="M628.07,3711.156L628.07,3715.323C628.07,3719.49,628.07,3727.823,628.136,3735.356C628.202,3742.89,628.334,3749.624,628.4,3752.99L628.466,3756.357"></path><path marker-end="url(#mermaid-1749012440161_flowchart-pointEnd)" style="fill:none;" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-KK LE-II" id="L-KK-II-0" d="M586.526,3847.643L561.233,3860.734C535.941,3873.825,485.355,3900.006,453.763,3918.678C422.172,3937.349,409.574,3948.511,403.275,3954.092L396.976,3959.673"></path><path marker-end="url(#mermaid-1749012440161_flowchart-pointEnd)" style="fill:none;" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-KK LE-JJ" id="L-KK-JJ-0" d="M628.57,3889.688L628.487,3895.771C628.404,3901.854,628.237,3914.021,628.154,3925.388C628.07,3936.754,628.07,3947.321,628.07,3952.604L628.07,3957.888"></path><path marker-end="url(#mermaid-1749012440161_flowchart-pointEnd)" style="fill:none;" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-II LE-LL" id="L-II-LL-0" d="M371,4002.188L371,4006.354C371,4010.521,371,4018.854,371.066,4026.388C371.132,4033.921,371.264,4040.655,371.33,4044.022L371.396,4047.389"></path><path marker-end="url(#mermaid-1749012440161_flowchart-pointEnd)" style="fill:none;" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-LL LE-FF" id="L-LL-FF-0" d="M371.5,4172.75L371.417,4178.833C371.333,4184.917,371.167,4197.083,371.083,4212.583C371,4228.083,371,4246.917,371,4263.75C371,4280.583,371,4295.417,371,4319.224C371,4343.031,371,4375.813,371,4410.594C371,4445.375,371,4482.156,371,4509.964C371,4537.771,371,4556.604,371,4575.438C371,4594.271,371,4613.104,371,4638.693C371,4664.281,371,4696.625,371,4728.969C371,4761.313,371,4793.656,371,4819.245C371,4844.833,371,4863.667,371,4880.5C371,4897.333,371,4912.167,371,4927C371,4941.833,371,4956.667,371,4971.5C371,4986.333,371,5001.167,371,5025.464C371,5049.76,371,5083.521,371,5119.281C371,5155.042,371,5192.802,371,5221.099C371,5249.396,371,5268.229,371,5287.063C371,5305.896,371,5324.729,371,5351.471C371,5378.214,371,5412.865,371,5447.516C371,5482.167,371,5516.818,371,5543.56C371,5570.302,371,5589.135,371,5605.969C371,5622.802,371,5637.635,371,5652.469C371,5667.302,371,5682.135,371,5696.969C371,5711.802,371,5726.635,371,5748.224C371,5769.813,371,5798.156,371,5828.5C371,5858.844,371,5891.188,371,5916.776C371,5942.365,371,5961.198,371,5978.031C371,5994.865,371,6009.698,371,6031.286C371,6052.875,371,6081.219,371,6111.563C371,6141.906,371,6174.25,371,6199.839C371,6225.427,371,6244.26,371,6261.094C371,6277.927,371,6292.76,418.345,6306.622C465.69,6320.483,560.379,6333.372,607.724,6339.817L655.069,6346.262"></path><path marker-end="url(#mermaid-1749012440161_flowchart-pointEnd)" style="fill:none;" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-LL LE-MM" id="L-LL-MM-0" d="M419.105,4125.145L473.043,4139.162C526.982,4153.18,634.858,4181.215,688.796,4200.516C742.734,4219.817,742.734,4230.383,742.734,4235.667L742.734,4240.95"></path><path marker-end="url(#mermaid-1749012440161_flowchart-pointEnd)" style="fill:none;" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-JJ LE-NN" id="L-JJ-NN-0" d="M628.07,4002.188L628.07,4006.354C628.07,4010.521,628.07,4018.854,628.07,4037.193C628.07,4055.531,628.07,4083.875,628.07,4114.219C628.07,4144.563,628.07,4176.906,628.07,4202.495C628.07,4228.083,628.07,4246.917,628.07,4263.75C628.07,4280.583,628.07,4295.417,640.014,4313.088C651.957,4330.76,675.845,4351.269,687.788,4361.524L699.732,4371.779"></path><path marker-end="url(#mermaid-1749012440161_flowchart-pointEnd)" style="fill:none;" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-NN LE-OO" id="L-NN-OO-0" d="M743.234,4482.438L743.151,4488.521C743.068,4494.604,742.901,4506.771,742.818,4522.271C742.734,4537.771,742.734,4556.604,742.734,4575.438C742.734,4594.271,742.734,4613.104,742.734,4638.693C742.734,4664.281,742.734,4696.625,742.734,4728.969C742.734,4761.313,742.734,4793.656,745.535,4815.211C748.336,4836.766,753.938,4847.532,756.739,4852.915L759.54,4858.298"></path><path marker-end="url(#mermaid-1749012440161_flowchart-pointEnd)" style="fill:none;" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-NN LE-PP" id="L-NN-PP-0" d="M693.776,4432.979L663.856,4447.306C633.935,4461.632,574.095,4490.285,544.174,4509.894C514.254,4529.504,514.254,4540.071,514.254,4545.354L514.254,4550.638"></path><path marker-end="url(#mermaid-1749012440161_flowchart-pointEnd)" style="fill:none;" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-MM LE-NN" id="L-MM-NN-0" d="M742.734,4285.25L742.734,4289.417C742.734,4293.583,742.734,4301.917,742.8,4309.45C742.866,4316.984,742.998,4323.717,743.064,4327.084L743.13,4330.451"></path><path marker-end="url(#mermaid-1749012440161_flowchart-pointEnd)" style="fill:none;" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-PP LE-QQ" id="L-PP-QQ-0" d="M514.254,4594.938L514.254,4601.104C514.254,4607.271,514.254,4619.604,514.325,4631.138C514.397,4642.671,514.54,4653.404,514.612,4658.771L514.683,4664.138"></path><path marker-end="url(#mermaid-1749012440161_flowchart-pointEnd)" style="fill:none;" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-QQ LE-FF" id="L-QQ-FF-0" d="M514.754,4789.5L514.671,4795.583C514.587,4801.667,514.421,4813.833,514.337,4829.333C514.254,4844.833,514.254,4863.667,514.254,4880.5C514.254,4897.333,514.254,4912.167,514.254,4927C514.254,4941.833,514.254,4956.667,514.254,4971.5C514.254,4986.333,514.254,5001.167,514.254,5025.464C514.254,5049.76,514.254,5083.521,514.254,5119.281C514.254,5155.042,514.254,5192.802,514.254,5221.099C514.254,5249.396,514.254,5268.229,514.254,5287.063C514.254,5305.896,514.254,5324.729,514.254,5351.471C514.254,5378.214,514.254,5412.865,514.254,5447.516C514.254,5482.167,514.254,5516.818,514.254,5543.56C514.254,5570.302,514.254,5589.135,514.254,5605.969C514.254,5622.802,514.254,5637.635,514.254,5652.469C514.254,5667.302,514.254,5682.135,514.254,5696.969C514.254,5711.802,514.254,5726.635,514.254,5748.224C514.254,5769.813,514.254,5798.156,514.254,5828.5C514.254,5858.844,514.254,5891.188,514.254,5916.776C514.254,5942.365,514.254,5961.198,514.254,5978.031C514.254,5994.865,514.254,6009.698,514.254,6031.286C514.254,6052.875,514.254,6081.219,514.254,6111.563C514.254,6141.906,514.254,6174.25,514.254,6199.839C514.254,6225.427,514.254,6244.26,514.254,6261.094C514.254,6277.927,514.254,6292.76,537.74,6305.868C561.226,6318.975,608.198,6330.356,631.683,6336.046L655.169,6341.737"></path><path marker-end="url(#mermaid-1749012440161_flowchart-pointEnd)" style="fill:none;" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-QQ LE-OO" id="L-QQ-OO-0" d="M558.373,4745.881L593.999,4759.234C629.626,4772.587,700.879,4799.294,736.506,4817.93C772.133,4836.567,772.133,4847.133,772.133,4852.417L772.133,4857.7"></path><path marker-end="url(#mermaid-1749012440161_flowchart-pointEnd)" style="fill:none;" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-OO LE-RR" id="L-OO-RR-0" d="M772.133,4902L772.133,4906.167C772.133,4910.333,772.133,4918.667,772.133,4926.117C772.133,4933.567,772.133,4940.133,772.133,4943.417L772.133,4946.7"></path><path marker-end="url(#mermaid-1749012440161_flowchart-pointEnd)" style="fill:none;" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-RR LE-SS" id="L-RR-SS-0" d="M772.133,4991L772.133,4995.167C772.133,4999.333,772.133,5007.667,772.199,5015.2C772.265,5022.734,772.397,5029.467,772.463,5032.834L772.529,5036.201"></path><path marker-end="url(#mermaid-1749012440161_flowchart-pointEnd)" style="fill:none;" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-SS LE-TT" id="L-SS-TT-0" d="M733.948,5155.378L720.886,5167.909C707.824,5180.44,681.699,5205.501,668.637,5223.315C655.574,5241.129,655.574,5251.696,655.574,5256.979L655.574,5262.263"></path><path marker-end="url(#mermaid-1749012440161_flowchart-pointEnd)" style="fill:none;" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-SS LE-UU" id="L-SS-UU-0" d="M791.219,5175.477L794.12,5184.658C797.021,5193.839,802.823,5212.201,805.724,5230.798C808.625,5249.396,808.625,5268.229,808.625,5287.063C808.625,5305.896,808.625,5324.729,808.625,5351.471C808.625,5378.214,808.625,5412.865,808.625,5447.516C808.625,5482.167,808.625,5516.818,810.007,5539.455C811.389,5562.092,814.153,5572.716,815.535,5578.028L816.917,5583.339"></path><path marker-end="url(#mermaid-1749012440161_flowchart-pointEnd)" style="fill:none;" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-TT LE-VV" id="L-TT-VV-0" d="M655.574,5306.563L655.574,5312.729C655.574,5318.896,655.574,5331.229,655.646,5342.763C655.717,5354.296,655.86,5365.029,655.932,5370.396L656.004,5375.763"></path><path marker-end="url(#mermaid-1749012440161_flowchart-pointEnd)" style="fill:none;" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-VV LE-FF" id="L-VV-FF-0" d="M656.074,5514.969L655.991,5521.052C655.908,5527.135,655.741,5539.302,655.658,5554.802C655.574,5570.302,655.574,5589.135,655.574,5605.969C655.574,5622.802,655.574,5637.635,655.574,5652.469C655.574,5667.302,655.574,5682.135,655.574,5696.969C655.574,5711.802,655.574,5726.635,655.574,5748.224C655.574,5769.813,655.574,5798.156,655.574,5828.5C655.574,5858.844,655.574,5891.188,655.574,5916.776C655.574,5942.365,655.574,5961.198,655.574,5978.031C655.574,5994.865,655.574,6009.698,655.574,6031.286C655.574,6052.875,655.574,6081.219,655.574,6111.563C655.574,6141.906,655.574,6174.25,655.574,6199.839C655.574,6225.427,655.574,6244.26,655.574,6261.094C655.574,6277.927,655.574,6292.76,658.93,6303.704C662.285,6314.647,668.996,6321.701,672.352,6325.227L675.707,6328.754"></path><path marker-end="url(#mermaid-1749012440161_flowchart-pointEnd)" style="fill:none;" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-VV LE-UU" id="L-VV-UU-0" d="M698.726,5472.317L721.942,5485.509C745.158,5498.701,791.591,5525.085,813.425,5543.589C835.26,5562.092,832.496,5572.716,831.114,5578.028L829.732,5583.339"></path><path marker-end="url(#mermaid-1749012440161_flowchart-pointEnd)" style="fill:none;" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-UU LE-WW" id="L-UU-WW-0" d="M823.324,5627.469L823.324,5631.635C823.324,5635.802,823.324,5644.135,823.324,5651.585C823.324,5659.035,823.324,5665.602,823.324,5668.885L823.324,5672.169"></path><path marker-end="url(#mermaid-1749012440161_flowchart-pointEnd)" style="fill:none;" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-WW LE-XX" id="L-WW-XX-0" d="M823.324,5716.469L823.324,5720.635C823.324,5724.802,823.324,5733.135,823.39,5740.669C823.456,5748.202,823.588,5754.936,823.654,5758.303L823.72,5761.67"></path><path marker-end="url(#mermaid-1749012440161_flowchart-pointEnd)" style="fill:none;" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-XX LE-FF" id="L-XX-FF-0" d="M795.282,5858.489L785.297,5869.329C775.311,5880.17,755.341,5901.85,745.356,5922.107C735.371,5942.365,735.371,5961.198,735.371,5978.031C735.371,5994.865,735.371,6009.698,735.371,6031.286C735.371,6052.875,735.371,6081.219,735.371,6111.563C735.371,6141.906,735.371,6174.25,735.371,6199.839C735.371,6225.427,735.371,6244.26,735.371,6261.094C735.371,6277.927,735.371,6292.76,732.433,6303.668C729.494,6314.575,723.618,6321.557,720.679,6325.048L717.741,6328.539"></path><path marker-end="url(#mermaid-1749012440161_flowchart-pointEnd)" style="fill:none;" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-XX LE-YY" id="L-XX-YY-0" d="M845.077,5865.778L850.315,5875.404C855.553,5885.029,866.028,5904.28,871.266,5919.189C876.504,5934.098,876.504,5944.665,876.504,5949.948L876.504,5955.231"></path><path marker-end="url(#mermaid-1749012440161_flowchart-pointEnd)" style="fill:none;" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-YY LE-ZZ" id="L-YY-ZZ-0" d="M876.504,5999.531L876.504,6003.698C876.504,6007.865,876.504,6016.198,876.57,6023.731C876.636,6031.265,876.768,6037.999,876.834,6041.365L876.9,6044.732"></path><path marker-end="url(#mermaid-1749012440161_flowchart-pointEnd)" style="fill:none;" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-ZZ LE-AAA" id="L-ZZ-AAA-0" d="M894.413,6152.685L898.034,6161.669C901.654,6170.654,908.896,6188.624,912.516,6202.892C916.137,6217.16,916.137,6227.727,916.137,6233.01L916.137,6238.294"></path><path marker-end="url(#mermaid-1749012440161_flowchart-pointEnd)" style="fill:none;" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-ZZ LE-FF" id="L-ZZ-FF-0" d="M851.179,6144.269L843.191,6154.657C835.203,6165.044,819.226,6185.819,811.238,6205.623C803.25,6225.427,803.25,6244.26,803.25,6261.094C803.25,6277.927,803.25,6292.76,792.773,6304.603C782.297,6316.446,761.343,6325.298,750.867,6329.723L740.39,6334.149"></path><path marker-end="url(#mermaid-1749012440161_flowchart-pointEnd)" style="fill:none;" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-AAA LE-FF" id="L-AAA-FF-0" d="M916.137,6282.594L916.137,6286.76C916.137,6290.927,916.137,6299.26,886.897,6309.39C857.658,6319.519,799.18,6331.444,769.94,6337.406L740.701,6343.369"></path><path marker-end="url(#mermaid-1749012440161_flowchart-pointEnd)" style="fill:none;" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-FF LE-BBB" id="L-FF-BBB-0" d="M697.914,6371.594L697.914,6375.76C697.914,6379.927,697.914,6388.26,697.914,6395.71C697.914,6403.16,697.914,6409.727,697.914,6413.01L697.914,6416.294"></path><path marker-end="url(#mermaid-1749012440161_flowchart-pointEnd)" style="fill:none;" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-BBB LE-CCC" id="L-BBB-CCC-0" d="M697.914,6460.594L697.914,6464.76C697.914,6468.927,697.914,6477.26,697.914,6484.71C697.914,6492.16,697.914,6498.727,697.914,6502.01L697.914,6505.294"></path></g><g class="edgeLabels"><g class="edgeLabel"><g transform="translate(0, 0)" class="label"><foreignobject height="0" width="0"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="edgeLabel"></span></div></foreignobject></g></g><g transform="translate(466.73828125, 278.5625)" class="edgeLabel"><g transform="translate(-11.328125, -12)" class="label"><foreignobject height="24" width="22.65625"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="edgeLabel">Yes</span></div></foreignobject></g></g><g transform="translate(687.01953125, 278.5625)" class="edgeLabel"><g transform="translate(-9.3984375, -12)" class="label"><foreignobject height="24" width="18.796875"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="edgeLabel">No</span></div></foreignobject></g></g><g class="edgeLabel"><g transform="translate(0, 0)" class="label"><foreignobject height="0" width="0"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="edgeLabel"></span></div></foreignobject></g></g><g class="edgeLabel"><g transform="translate(0, 0)" class="label"><foreignobject height="0" width="0"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="edgeLabel"></span></div></foreignobject></g></g><g transform="translate(531.32421875, 724.640625)" class="edgeLabel"><g transform="translate(-11.328125, -12)" class="label"><foreignobject height="24" width="22.65625"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="edgeLabel">Yes</span></div></foreignobject></g></g><g transform="translate(402.15234375, 781.140625)" class="edgeLabel"><g transform="translate(-9.3984375, -12)" class="label"><foreignobject height="24" width="18.796875"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="edgeLabel">No</span></div></foreignobject></g></g><g class="edgeLabel"><g transform="translate(0, 0)" class="label"><foreignobject height="0" width="0"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="edgeLabel"></span></div></foreignobject></g></g><g class="edgeLabel"><g transform="translate(0, 0)" class="label"><foreignobject height="0" width="0"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="edgeLabel"></span></div></foreignobject></g></g><g class="edgeLabel"><g transform="translate(0, 0)" class="label"><foreignobject height="0" width="0"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="edgeLabel"></span></div></foreignobject></g></g><g transform="translate(456.76171875, 1353.5625)" class="edgeLabel"><g transform="translate(-11.328125, -12)" class="label"><foreignobject height="24" width="22.65625"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="edgeLabel">Yes</span></div></foreignobject></g></g><g transform="translate(344.67578125, 1410.0625)" class="edgeLabel"><g transform="translate(-9.3984375, -12)" class="label"><foreignobject height="24" width="18.796875"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="edgeLabel">No</span></div></foreignobject></g></g><g class="edgeLabel"><g transform="translate(0, 0)" class="label"><foreignobject height="0" width="0"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="edgeLabel"></span></div></foreignobject></g></g><g class="edgeLabel"><g transform="translate(0, 0)" class="label"><foreignobject height="0" width="0"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="edgeLabel"></span></div></foreignobject></g></g><g transform="translate(578.82421875, 1410.0625)" class="edgeLabel"><g transform="translate(-9.3984375, -12)" class="label"><foreignobject height="24" width="18.796875"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="edgeLabel">No</span></div></foreignobject></g></g><g transform="translate(466.73828125, 1794.203125)" class="edgeLabel"><g transform="translate(-11.328125, -12)" class="label"><foreignobject height="24" width="22.65625"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="edgeLabel">Yes</span></div></foreignobject></g></g><g class="edgeLabel"><g transform="translate(0, 0)" class="label"><foreignobject height="0" width="0"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="edgeLabel"></span></div></foreignobject></g></g><g transform="translate(202.71875, 2104.953125)" class="edgeLabel"><g transform="translate(-11.328125, -12)" class="label"><foreignobject height="24" width="22.65625"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="edgeLabel">Yes</span></div></foreignobject></g></g><g transform="translate(628.0703125, 2104.953125)" class="edgeLabel"><g transform="translate(-9.3984375, -12)" class="label"><foreignobject height="24" width="18.796875"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="edgeLabel">No</span></div></foreignobject></g></g><g class="edgeLabel"><g transform="translate(0, 0)" class="label"><foreignobject height="0" width="0"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="edgeLabel"></span></div></foreignobject></g></g><g class="edgeLabel"><g transform="translate(0, 0)" class="label"><foreignobject height="0" width="0"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="edgeLabel"></span></div></foreignobject></g></g><g class="edgeLabel"><g transform="translate(0, 0)" class="label"><foreignobject height="0" width="0"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="edgeLabel"></span></div></foreignobject></g></g><g class="edgeLabel"><g transform="translate(0, 0)" class="label"><foreignobject height="0" width="0"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="edgeLabel"></span></div></foreignobject></g></g><g transform="translate(380.97265625, 2517.484375)" class="edgeLabel"><g transform="translate(-31.8828125, -12)" class="label"><foreignobject height="24" width="63.765625"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="edgeLabel">고액/복잡</span></div></foreignobject></g></g><g transform="translate(552.50390625, 2517.484375)" class="edgeLabel"><g transform="translate(-31.8828125, -12)" class="label"><foreignobject height="24" width="63.765625"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="edgeLabel">단순/소액</span></div></foreignobject></g></g><g class="edgeLabel"><g transform="translate(0, 0)" class="label"><foreignobject height="0" width="0"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="edgeLabel"></span></div></foreignobject></g></g><g class="edgeLabel"><g transform="translate(0, 0)" class="label"><foreignobject height="0" width="0"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="edgeLabel"></span></div></foreignobject></g></g><g class="edgeLabel"><g transform="translate(0, 0)" class="label"><foreignobject height="0" width="0"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="edgeLabel"></span></div></foreignobject></g></g><g class="edgeLabel"><g transform="translate(0, 0)" class="label"><foreignobject height="0" width="0"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="edgeLabel"></span></div></foreignobject></g></g><g class="edgeLabel"><g transform="translate(0, 0)" class="label"><foreignobject height="0" width="0"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="edgeLabel"></span></div></foreignobject></g></g><g class="edgeLabel"><g transform="translate(0, 0)" class="label"><foreignobject height="0" width="0"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="edgeLabel"></span></div></foreignobject></g></g><g transform="translate(370.171875, 3367.078125)" class="edgeLabel"><g transform="translate(-11.328125, -12)" class="label"><foreignobject height="24" width="22.65625"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="edgeLabel">Yes</span></div></foreignobject></g></g><g transform="translate(563.3046875, 3310.578125)" class="edgeLabel"><g transform="translate(-9.3984375, -12)" class="label"><foreignobject height="24" width="18.796875"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="edgeLabel">No</span></div></foreignobject></g></g><g class="edgeLabel"><g transform="translate(0, 0)" class="label"><foreignobject height="0" width="0"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="edgeLabel"></span></div></foreignobject></g></g><g class="edgeLabel"><g transform="translate(0, 0)" class="label"><foreignobject height="0" width="0"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="edgeLabel"></span></div></foreignobject></g></g><g transform="translate(259.375, 4971.5)" class="edgeLabel"><g transform="translate(-13.84375, -12)" class="label"><foreignobject height="24" width="27.6875"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="edgeLabel">적정</span></div></foreignobject></g></g><g transform="translate(628.0703125, 3635.15625)" class="edgeLabel"><g transform="translate(-13.84375, -12)" class="label"><foreignobject height="24" width="27.6875"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="edgeLabel">부족</span></div></foreignobject></g></g><g class="edgeLabel"><g transform="translate(0, 0)" class="label"><foreignobject height="0" width="0"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="edgeLabel"></span></div></foreignobject></g></g><g transform="translate(302.7734375, 3926.1875)" class="edgeLabel"><g transform="translate(-20.765625, -12)" class="label"><foreignobject height="24" width="41.53125"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="edgeLabel">긍정적</span></div></foreignobject></g></g><g transform="translate(498.70703125, 3926.1875)" class="edgeLabel"><g transform="translate(-13.84375, -12)" class="label"><foreignobject height="24" width="27.6875"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="edgeLabel">거부</span></div></foreignobject></g></g><g class="edgeLabel"><g transform="translate(0, 0)" class="label"><foreignobject height="0" width="0"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="edgeLabel"></span></div></foreignobject></g></g><g transform="translate(434.76953125, 3926.1875)" class="edgeLabel"><g transform="translate(-30.09375, -12)" class="label"><foreignobject height="24" width="60.1875"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="edgeLabel">증액 제시</span></div></foreignobject></g></g><g transform="translate(628.0703125, 3926.1875)" class="edgeLabel"><g transform="translate(-13.84375, -12)" class="label"><foreignobject height="24" width="27.6875"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="edgeLabel">거부</span></div></foreignobject></g></g><g class="edgeLabel"><g transform="translate(0, 0)" class="label"><foreignobject height="0" width="0"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="edgeLabel"></span></div></foreignobject></g></g><g transform="translate(371, 5287.0625)" class="edgeLabel"><g transform="translate(-11.328125, -12)" class="label"><foreignobject height="24" width="22.65625"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="edgeLabel">Yes</span></div></foreignobject></g></g><g transform="translate(742.734375, 4209.25)" class="edgeLabel"><g transform="translate(-9.3984375, -12)" class="label"><foreignobject height="24" width="18.796875"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="edgeLabel">No</span></div></foreignobject></g></g><g class="edgeLabel"><g transform="translate(0, 0)" class="label"><foreignobject height="0" width="0"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="edgeLabel"></span></div></foreignobject></g></g><g transform="translate(742.734375, 4631.9375)" class="edgeLabel"><g transform="translate(-11.328125, -12)" class="label"><foreignobject height="24" width="22.65625"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="edgeLabel">Yes</span></div></foreignobject></g></g><g transform="translate(514.25390625, 4518.9375)" class="edgeLabel"><g transform="translate(-9.3984375, -12)" class="label"><foreignobject height="24" width="18.796875"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="edgeLabel">No</span></div></foreignobject></g></g><g class="edgeLabel"><g transform="translate(0, 0)" class="label"><foreignobject height="0" width="0"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="edgeLabel"></span></div></foreignobject></g></g><g class="edgeLabel"><g transform="translate(0, 0)" class="label"><foreignobject height="0" width="0"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="edgeLabel"></span></div></foreignobject></g></g><g transform="translate(514.25390625, 5607.96875)" class="edgeLabel"><g transform="translate(-11.328125, -12)" class="label"><foreignobject height="24" width="22.65625"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="edgeLabel">Yes</span></div></foreignobject></g></g><g transform="translate(772.1328125, 4826)" class="edgeLabel"><g transform="translate(-9.3984375, -12)" class="label"><foreignobject height="24" width="18.796875"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="edgeLabel">No</span></div></foreignobject></g></g><g class="edgeLabel"><g transform="translate(0, 0)" class="label"><foreignobject height="0" width="0"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="edgeLabel"></span></div></foreignobject></g></g><g class="edgeLabel"><g transform="translate(0, 0)" class="label"><foreignobject height="0" width="0"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="edgeLabel"></span></div></foreignobject></g></g><g transform="translate(655.57421875, 5230.5625)" class="edgeLabel"><g transform="translate(-11.328125, -12)" class="label"><foreignobject height="24" width="22.65625"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="edgeLabel">Yes</span></div></foreignobject></g></g><g transform="translate(808.625, 5343.5625)" class="edgeLabel"><g transform="translate(-9.3984375, -12)" class="label"><foreignobject height="24" width="18.796875"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="edgeLabel">No</span></div></foreignobject></g></g><g class="edgeLabel"><g transform="translate(0, 0)" class="label"><foreignobject height="0" width="0"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="edgeLabel"></span></div></foreignobject></g></g><g transform="translate(655.57421875, 5923.53125)" class="edgeLabel"><g transform="translate(-11.328125, -12)" class="label"><foreignobject height="24" width="22.65625"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="edgeLabel">Yes</span></div></foreignobject></g></g><g transform="translate(838.0234375, 5551.46875)" class="edgeLabel"><g transform="translate(-9.3984375, -12)" class="label"><foreignobject height="24" width="18.796875"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="edgeLabel">No</span></div></foreignobject></g></g><g class="edgeLabel"><g transform="translate(0, 0)" class="label"><foreignobject height="0" width="0"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="edgeLabel"></span></div></foreignobject></g></g><g class="edgeLabel"><g transform="translate(0, 0)" class="label"><foreignobject height="0" width="0"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="edgeLabel"></span></div></foreignobject></g></g><g transform="translate(735.37109375, 6109.5625)" class="edgeLabel"><g transform="translate(-11.328125, -12)" class="label"><foreignobject height="24" width="22.65625"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="edgeLabel">Yes</span></div></foreignobject></g></g><g transform="translate(876.50390625, 5923.53125)" class="edgeLabel"><g transform="translate(-9.3984375, -12)" class="label"><foreignobject height="24" width="18.796875"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="edgeLabel">No</span></div></foreignobject></g></g><g class="edgeLabel"><g transform="translate(0, 0)" class="label"><foreignobject height="0" width="0"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="edgeLabel"></span></div></foreignobject></g></g><g transform="translate(916.13671875, 6206.59375)" class="edgeLabel"><g transform="translate(-11.328125, -12)" class="label"><foreignobject height="24" width="22.65625"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="edgeLabel">Yes</span></div></foreignobject></g></g><g transform="translate(803.25, 6263.09375)" class="edgeLabel"><g transform="translate(-9.3984375, -12)" class="label"><foreignobject height="24" width="18.796875"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="edgeLabel">No</span></div></foreignobject></g></g><g class="edgeLabel"><g transform="translate(0, 0)" class="label"><foreignobject height="0" width="0"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="edgeLabel"></span></div></foreignobject></g></g><g class="edgeLabel"><g transform="translate(0, 0)" class="label"><foreignobject height="0" width="0"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="edgeLabel"></span></div></foreignobject></g></g><g class="edgeLabel"><g transform="translate(0, 0)" class="label"><foreignobject height="0" width="0"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="edgeLabel"></span></div></foreignobject></g></g></g><g class="nodes"><g transform="translate(576.87890625, 19.5)" id="flowchart-A-769" class="node default default flowchart-label"><rect height="39" width="149.203125" y="-19.5" x="-74.6015625" ry="0" rx="0" style="fill:#ff9999;" class="basic label-container"></rect><g transform="translate(-67.1015625, -12)" style="" class="label"><rect></rect><foreignobject height="24" width="134.203125"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="nodeLabel">교통사고 중상해 발생</span></div></foreignobject></g></g><g transform="translate(576.87890625, 165.28125)" id="flowchart-B-770" class="node default flowchart-label"><polygon style="" transform="translate(-76.28125,76.28125)" class="label-container" points="76.28125,0 152.5625,-76.28125 76.28125,-152.5625 0,-76.28125"></polygon><g transform="translate(-49.28125, -12)" style="" class="label"><rect></rect><foreignobject height="24" width="98.5625"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="nodeLabel">입원 치료 필요?</span></div></foreignobject></g></g><g transform="translate(466.73828125, 335.0625)" id="flowchart-C-772" class="node default default flowchart-label"><rect height="39" width="186.53125" y="-19.5" x="-93.265625" ry="0" rx="0" style="" class="basic label-container"></rect><g transform="translate(-85.765625, -12)" style="" class="label"><rect></rect><foreignobject height="24" width="171.53125"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="nodeLabel">중상해 확정 입원 치료 시작</span></div></foreignobject></g></g><g transform="translate(687.01953125, 335.0625)" id="flowchart-D-774" class="node default default flowchart-label"><rect height="39" width="154.03125" y="-19.5" x="-77.015625" ry="0" rx="0" style="" class="basic label-container"></rect><g transform="translate(-69.515625, -12)" style="" class="label"><rect></rect><foreignobject height="24" width="139.03125"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="nodeLabel">경상해 의심 외래 치료</span></div></foreignobject></g></g><g transform="translate(466.73828125, 424.0625)" id="flowchart-E-776" class="node default default flowchart-label"><rect height="39" width="135.375" y="-19.5" x="-67.6875" ry="0" rx="0" style="" class="basic label-container"></rect><g transform="translate(-60.1875, -12)" style="" class="label"><rect></rect><foreignobject height="24" width="120.375"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="nodeLabel">의료기록 수집 시작</span></div></foreignobject></g></g><g transform="translate(466.73828125, 590.6015625)" id="flowchart-F-778" class="node default default flowchart-label"><polygon style="" transform="translate(-97.0390625,97.0390625)" class="label-container" points="97.0390625,0 194.078125,-97.0390625 97.0390625,-194.078125 0,-97.0390625"></polygon><g transform="translate(-70.0390625, -12)" style="" class="label"><rect></rect><foreignobject height="24" width="140.078125"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="nodeLabel">보험사 조기합의 제안?</span></div></foreignobject></g></g><g transform="translate(531.32421875, 781.140625)" id="flowchart-G-780" class="node default default flowchart-label"><rect height="39" width="169.546875" y="-19.5" x="-84.7734375" ry="0" rx="0" style="fill:#ffcccc;" class="basic label-container"></rect><g transform="translate(-77.2734375, -12)" style="" class="label"><rect></rect><foreignobject height="24" width="154.546875"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="nodeLabel">거절 - 치료 완료 후 논의</span></div></foreignobject></g></g><g transform="translate(466.73828125, 870.140625)" id="flowchart-H-782" class="node default default flowchart-label"><rect height="39" width="75.1875" y="-19.5" x="-37.59375" ry="0" rx="0" style="" class="basic label-container"></rect><g transform="translate(-30.09375, -12)" style="" class="label"><rect></rect><foreignobject height="24" width="60.1875"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="nodeLabel">치료 지속</span></div></foreignobject></g></g><g transform="translate(466.73828125, 1006.0625)" id="flowchart-I-786" class="node default default flowchart-label"><polygon style="" transform="translate(-66.421875,66.421875)" class="label-container" points="66.421875,0 132.84375,-66.421875 66.421875,-132.84375 0,-66.421875"></polygon><g transform="translate(-39.421875, -12)" style="" class="label"><rect></rect><foreignobject height="24" width="78.84375"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="nodeLabel">치료 진행 중</span></div></foreignobject></g></g><g transform="translate(400.71875, 1219.5234375)" id="flowchart-J-788" class="node default default flowchart-label"><polygon style="" transform="translate(-97.0390625,97.0390625)" class="label-container" points="97.0390625,0 194.078125,-97.0390625 97.0390625,-194.078125 0,-97.0390625"></polygon><g transform="translate(-70.0390625, -12)" style="" class="label"><rect></rect><foreignobject height="24" width="140.078125"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="nodeLabel">보험사 치료종결 압박?</span></div></foreignobject></g></g><g transform="translate(456.76171875, 1410.0625)" id="flowchart-K-790" class="node default default flowchart-label"><rect height="39" width="135.375" y="-19.5" x="-67.6875" ry="0" rx="0" style="fill:#ffcccc;" class="basic label-container"></rect><g transform="translate(-60.1875, -12)" style="" class="label"><rect></rect><foreignobject height="24" width="120.375"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="nodeLabel">주치의 소견서 확보</span></div></foreignobject></g></g><g transform="translate(400.71875, 1499.0625)" id="flowchart-L-792" class="node default flowchart-label"><rect height="39" width="75.1875" y="-19.5" x="-37.59375" ry="0" rx="0" style="" class="basic label-container"></rect><g transform="translate(-30.09375, -12)" style="" class="label"><rect></rect><foreignobject height="24" width="60.1875"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="nodeLabel">치료 계속</span></div></foreignobject></g></g><g transform="translate(466.73828125, 1662.8828125)" id="flowchart-M-796" class="node default flowchart-label"><polygon style="" transform="translate(-94.3203125,94.3203125)" class="label-container" points="94.3203125,0 188.640625,-94.3203125 94.3203125,-188.640625 0,-94.3203125"></polygon><g transform="translate(-67.3203125, -12)" style="" class="label"><rect></rect><foreignobject height="24" width="134.640625"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="nodeLabel">치료 완료/증상 안정?</span></div></foreignobject></g></g><g transform="translate(466.73828125, 1850.703125)" id="flowchart-N-800" class="node default default flowchart-label"><rect height="39" width="102.875" y="-19.5" x="-51.4375" ry="0" rx="0" style="" class="basic label-container"></rect><g transform="translate(-43.9375, -12)" style="" class="label"><rect></rect><foreignobject height="24" width="87.875"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="nodeLabel">후유장해 평가</span></div></foreignobject></g></g><g transform="translate(466.73828125, 1994.078125)" id="flowchart-O-802" class="node default flowchart-label"><polygon style="" transform="translate(-73.875,73.875)" class="label-container" points="73.875,0 147.75,-73.875 73.875,-147.75 0,-73.875"></polygon><g transform="translate(-46.875, -12)" style="" class="label"><rect></rect><foreignobject height="24" width="93.75"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="nodeLabel">후유장해 존재?</span></div></foreignobject></g></g><g transform="translate(202.71875, 2161.453125)" id="flowchart-P-804" class="node default default flowchart-label"><rect height="39" width="228.046875" y="-19.5" x="-114.0234375" ry="0" rx="0" style="" class="basic label-container"></rect><g transform="translate(-106.5234375, -12)" style="" class="label"><rect></rect><foreignobject height="24" width="213.046875"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="nodeLabel">장해등급 확정 일실수익 산정 준비</span></div></foreignobject></g></g><g transform="translate(628.0703125, 2161.453125)" id="flowchart-Q-806" class="node default default flowchart-label"><rect height="39" width="167.875" y="-19.5" x="-83.9375" ry="0" rx="0" style="" class="basic label-container"></rect><g transform="translate(-76.4375, -12)" style="" class="label"><rect></rect><foreignobject height="24" width="152.875"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="nodeLabel">완치 확인 손해항목 정리</span></div></foreignobject></g></g><g transform="translate(202.71875, 2250.453125)" id="flowchart-R-808" class="node default default flowchart-label"><rect height="39" width="405.4375" y="-19.5" x="-202.71875" ry="0" rx="0" style="" class="basic label-container"></rect><g transform="translate(-195.21875, -12)" style="" class="label"><rect></rect><foreignobject height="24" width="390.4375"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="nodeLabel">손해배상 항목 정리 - 치료비 간병비 휴업손해 일실수익 위자료</span></div></foreignobject></g></g><g transform="translate(628.0703125, 2250.453125)" id="flowchart-S-810" class="node default default flowchart-label"><rect height="39" width="345.265625" y="-19.5" x="-172.6328125" ry="0" rx="0" style="" class="basic label-container"></rect><g transform="translate(-165.1328125, -12)" style="" class="label"><rect></rect><foreignobject height="24" width="330.265625"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="nodeLabel">손해배상 항목 정리 - 치료비 간병비 휴업손해 위자료</span></div></foreignobject></g></g><g transform="translate(466.73828125, 2400.21875)" id="flowchart-T-812" class="node default flowchart-label"><polygon style="" transform="translate(-80.265625,80.265625)" class="label-container" points="80.265625,0 160.53125,-80.265625 80.265625,-160.53125 0,-80.265625"></polygon><g transform="translate(-53.265625, -12)" style="" class="label"><rect></rect><foreignobject height="24" width="106.53125"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="nodeLabel">변호사 선임 여부</span></div></foreignobject></g></g><g transform="translate(380.97265625, 2573.984375)" id="flowchart-U-816" class="node default default flowchart-label"><rect height="39" width="167.875" y="-19.5" x="-83.9375" ry="0" rx="0" style="" class="basic label-container"></rect><g transform="translate(-76.4375, -12)" style="" class="label"><rect></rect><foreignobject height="24" width="152.875"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="nodeLabel">변호사 선임 전문적 검토</span></div></foreignobject></g></g><g transform="translate(552.50390625, 2573.984375)" id="flowchart-V-818" class="node default default flowchart-label"><rect height="39" width="75.1875" y="-19.5" x="-37.59375" ry="0" rx="0" style="" class="basic label-container"></rect><g transform="translate(-30.09375, -12)" style="" class="label"><rect></rect><foreignobject height="24" width="60.1875"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="nodeLabel">개인 진행</span></div></foreignobject></g></g><g transform="translate(466.73828125, 2662.984375)" id="flowchart-W-820" class="node default flowchart-label"><rect height="39" width="135.375" y="-19.5" x="-67.6875" ry="0" rx="0" style="" class="basic label-container"></rect><g transform="translate(-60.1875, -12)" style="" class="label"><rect></rect><foreignobject height="24" width="120.375"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="nodeLabel">보험사와 협상 시작</span></div></foreignobject></g></g><g transform="translate(466.73828125, 2812.75)" id="flowchart-X-824" class="node default default flowchart-label"><polygon style="" transform="translate(-80.265625,80.265625)" class="label-container" points="80.265625,0 160.53125,-80.265625 80.265625,-160.53125 0,-80.265625"></polygon><g transform="translate(-53.265625, -12)" style="" class="label"><rect></rect><foreignobject height="24" width="106.53125"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="nodeLabel">보험사 첫 제시액</span></div></foreignobject></g></g><g transform="translate(466.73828125, 2962.515625)" id="flowchart-Y-826" class="node default default flowchart-label"><rect height="39" width="202.046875" y="-19.5" x="-101.0234375" ry="0" rx="0" style="fill:#ffcccc;" class="basic label-container"></rect><g transform="translate(-93.5234375, -12)" style="" class="label"><rect></rect><foreignobject height="24" width="187.046875"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="nodeLabel">즉시 수락 금지 - 검토 후 답변</span></div></foreignobject></g></g><g transform="translate(466.73828125, 3051.515625)" id="flowchart-Z-828" class="node default default flowchart-label"><rect height="39" width="238.75" y="-19.5" x="-119.375" ry="0" rx="0" style="" class="basic label-container"></rect><g transform="translate(-111.875, -12)" style="" class="label"><rect></rect><foreignobject height="24" width="223.75"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="nodeLabel">제시액 분석 - 항목별 세부내역 요구</span></div></foreignobject></g></g><g transform="translate(466.73828125, 3197.296875)" id="flowchart-AA-830" class="node default default flowchart-label"><polygon style="" transform="translate(-76.28125,76.28125)" class="label-container" points="76.28125,0 152.5625,-76.28125 76.28125,-152.5625 0,-76.28125"></polygon><g transform="translate(-49.28125, -12)" style="" class="label"><rect></rect><foreignobject height="24" width="98.5625"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="nodeLabel">누락 항목 존재?</span></div></foreignobject></g></g><g transform="translate(370.171875, 3517.3671875)" id="flowchart-BB-832" class="node default default flowchart-label"><rect height="39" width="107.6875" y="-19.5" x="-53.84375" ry="0" rx="0" style="fill:#ffcccc;" class="basic label-container"></rect><g transform="translate(-46.34375, -12)" style="" class="label"><rect></rect><foreignobject height="24" width="92.6875"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="nodeLabel">누락 항목 지적</span></div></foreignobject></g></g><g transform="translate(563.3046875, 3367.078125)" id="flowchart-CC-834" class="node default default flowchart-label"><rect height="39" width="121.53125" y="-19.5" x="-60.765625" ry="0" rx="0" style="" class="basic label-container"></rect><g transform="translate(-53.265625, -12)" style="" class="label"><rect></rect><foreignobject height="24" width="106.53125"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="nodeLabel">금액 적정성 검토</span></div></foreignobject></g></g><g transform="translate(434.9375, 3691.65625)" id="flowchart-DD-836" class="node default default flowchart-label"><rect height="39" width="135.375" y="-19.5" x="-67.6875" ry="0" rx="0" style="" class="basic label-container"></rect><g transform="translate(-60.1875, -12)" style="" class="label"><rect></rect><foreignobject height="24" width="120.375"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="nodeLabel">보험사 재계산 요구</span></div></foreignobject></g></g><g transform="translate(563.3046875, 3517.3671875)" id="flowchart-EE-838" class="node default default flowchart-label"><polygon style="" transform="translate(-80.7890625,80.7890625)" class="label-container" points="80.7890625,0 161.578125,-80.7890625 80.7890625,-161.578125 0,-80.7890625"></polygon><g transform="translate(-53.7890625, -12)" style="" class="label"><rect></rect><foreignobject height="24" width="107.578125"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="nodeLabel">금액이 적정한가?</span></div></foreignobject></g></g><g transform="translate(697.9140625, 6352.09375)" id="flowchart-FF-840" class="node default default flowchart-label"><rect height="39" width="75.1875" y="-19.5" x="-37.59375" ry="0" rx="0" style="fill:#ccffff;" class="basic label-container"></rect><g transform="translate(-30.09375, -12)" style="" class="label"><rect></rect><foreignobject height="24" width="60.1875"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="nodeLabel">합의 진행</span></div></foreignobject></g></g><g transform="translate(628.0703125, 3691.65625)" id="flowchart-GG-842" class="node default default flowchart-label"><rect height="39" width="150.890625" y="-19.5" x="-75.4453125" ry="0" rx="0" style="" class="basic label-container"></rect><g transform="translate(-67.9453125, -12)" style="" class="label"><rect></rect><foreignobject height="24" width="135.890625"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="nodeLabel">증액 요구 - 판례 인용</span></div></foreignobject></g></g><g transform="translate(434.9375, 3825.171875)" id="flowchart-HH-844" class="node default default flowchart-label"><polygon style="" transform="translate(-64.015625,64.015625)" class="label-container" points="64.015625,0 128.03125,-64.015625 64.015625,-128.03125 0,-64.015625"></polygon><g transform="translate(-37.015625, -12)" style="" class="label"><rect></rect><foreignobject height="24" width="74.03125"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="nodeLabel">보험사 응답</span></div></foreignobject></g></g><g transform="translate(371, 3982.6875)" id="flowchart-II-846" class="node default default flowchart-label"><rect height="39" width="102.875" y="-19.5" x="-51.4375" ry="0" rx="0" style="" class="basic label-container"></rect><g transform="translate(-43.9375, -12)" style="" class="label"><rect></rect><foreignobject height="24" width="87.875"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="nodeLabel">재제시액 검토</span></div></foreignobject></g></g><g transform="translate(628.0703125, 3982.6875)" id="flowchart-JJ-848" class="node default default flowchart-label"><rect height="39" width="214.640625" y="-19.5" x="-107.3203125" ry="0" rx="0" style="fill:#ffcc99;" class="basic label-container"></rect><g transform="translate(-99.8203125, -12)" style="" class="label"><rect></rect><foreignobject height="24" width="199.640625"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="nodeLabel">강경 대응 - 분쟁조정/소송 고려</span></div></foreignobject></g></g><g transform="translate(628.0703125, 3825.171875)" id="flowchart-KK-850" class="node default default flowchart-label"><polygon style="" transform="translate(-64.015625,64.015625)" class="label-container" points="64.015625,0 128.03125,-64.015625 64.015625,-128.03125 0,-64.015625"></polygon><g transform="translate(-37.015625, -12)" style="" class="label"><rect></rect><foreignobject height="24" width="74.03125"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="nodeLabel">보험사 응답</span></div></foreignobject></g></g><g transform="translate(371, 4112.21875)" id="flowchart-LL-856" class="node default default flowchart-label"><polygon style="" transform="translate(-60.03125,60.03125)" class="label-container" points="60.03125,0 120.0625,-60.03125 60.03125,-120.0625 0,-60.03125"></polygon><g transform="translate(-33.03125, -12)" style="" class="label"><rect></rect><foreignobject height="24" width="66.0625"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="nodeLabel">금액 만족?</span></div></foreignobject></g></g><g transform="translate(742.734375, 4265.75)" id="flowchart-MM-860" class="node default default flowchart-label"><rect height="39" width="159.328125" y="-19.5" x="-79.6640625" ry="0" rx="0" style="" class="basic label-container"></rect><g transform="translate(-72.1640625, -12)" style="" class="label"><rect></rect><foreignobject height="24" width="144.328125"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="nodeLabel">추가 협상 vs 소송 결정</span></div></foreignobject></g></g><g transform="translate(742.734375, 4408.59375)" id="flowchart-NN-862" class="node default default flowchart-label"><polygon style="" transform="translate(-73.34375,73.34375)" class="label-container" points="73.34375,0 146.6875,-73.34375 73.34375,-146.6875 0,-73.34375"></polygon><g transform="translate(-46.34375, -12)" style="" class="label"><rect></rect><foreignobject height="24" width="92.6875"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="nodeLabel">소송 진행 결정</span></div></foreignobject></g></g><g transform="translate(772.1328125, 4882.5)" id="flowchart-OO-864" class="node default default flowchart-label"><rect height="39" width="102.875" y="-19.5" x="-51.4375" ry="0" rx="0" style="fill:#ccffcc;" class="basic label-container"></rect><g transform="translate(-43.9375, -12)" style="" class="label"><rect></rect><foreignobject height="24" width="87.875"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="nodeLabel">민사소송 제기</span></div></foreignobject></g></g><g transform="translate(514.25390625, 4575.4375)" id="flowchart-PP-866" class="node default default flowchart-label"><rect height="39" width="102.875" y="-19.5" x="-51.4375" ry="0" rx="0" style="" class="basic label-container"></rect><g transform="translate(-43.9375, -12)" style="" class="label"><rect></rect><foreignobject height="24" width="87.875"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="nodeLabel">분쟁조정 신청</span></div></foreignobject></g></g><g transform="translate(514.25390625, 4728.96875)" id="flowchart-QQ-870" class="node default flowchart-label"><polygon style="" transform="translate(-60.03125,60.03125)" class="label-container" points="60.03125,0 120.0625,-60.03125 60.03125,-120.0625 0,-60.03125"></polygon><g transform="translate(-33.03125, -12)" style="" class="label"><rect></rect><foreignobject height="24" width="66.0625"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="nodeLabel">조정 성공?</span></div></foreignobject></g></g><g transform="translate(772.1328125, 4971.5)" id="flowchart-RR-876" class="node default default flowchart-label"><rect height="39" width="238.75" y="-19.5" x="-119.375" ry="0" rx="0" style="" class="basic label-container"></rect><g transform="translate(-111.875, -12)" style="" class="label"><rect></rect><foreignobject height="24" width="223.75"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="nodeLabel">소송 진행 - 변론 감정절차 증거조사</span></div></foreignobject></g></g><g transform="translate(772.1328125, 5117.28125)" id="flowchart-SS-878" class="node default default flowchart-label"><polygon style="" transform="translate(-76.28125,76.28125)" class="label-container" points="76.28125,0 152.5625,-76.28125 76.28125,-152.5625 0,-76.28125"></polygon><g transform="translate(-49.28125, -12)" style="" class="label"><rect></rect><foreignobject height="24" width="98.5625"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="nodeLabel">법원 조정 권유?</span></div></foreignobject></g></g><g transform="translate(655.57421875, 5287.0625)" id="flowchart-TT-880" class="node default default flowchart-label"><rect height="39" width="186.53125" y="-19.5" x="-93.265625" ry="0" rx="0" style="" class="basic label-container"></rect><g transform="translate(-85.765625, -12)" style="" class="label"><rect></rect><foreignobject height="24" width="171.53125"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="nodeLabel">조정안 검토 판사 의견 고려</span></div></foreignobject></g></g><g transform="translate(823.32421875, 5607.96875)" id="flowchart-UU-882" class="node default default flowchart-label"><rect height="39" width="75.1875" y="-19.5" x="-37.59375" ry="0" rx="0" style="" class="basic label-container"></rect><g transform="translate(-30.09375, -12)" style="" class="label"><rect></rect><foreignobject height="24" width="60.1875"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="nodeLabel">판결 대기</span></div></foreignobject></g></g><g transform="translate(655.57421875, 5447.515625)" id="flowchart-VV-884" class="node default default flowchart-label"><polygon style="" transform="translate(-66.953125,66.953125)" class="label-container" points="66.953125,0 133.90625,-66.953125 66.953125,-133.90625 0,-66.953125"></polygon><g transform="translate(-39.953125, -12)" style="" class="label"><rect></rect><foreignobject height="24" width="79.90625"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="nodeLabel">조정안 수용?</span></div></foreignobject></g></g><g transform="translate(823.32421875, 5696.96875)" id="flowchart-WW-890" class="node default default flowchart-label"><rect height="39" width="69.734375" y="-19.5" x="-34.8671875" ry="0" rx="0" style="" class="basic label-container"></rect><g transform="translate(-27.3671875, -12)" style="" class="label"><rect></rect><foreignobject height="24" width="54.734375"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="nodeLabel">1심 판결</span></div></foreignobject></g></g><g transform="translate(823.32421875, 5826.5)" id="flowchart-XX-892" class="node default default flowchart-label"><polygon style="" transform="translate(-60.03125,60.03125)" class="label-container" points="60.03125,0 120.0625,-60.03125 60.03125,-120.0625 0,-60.03125"></polygon><g transform="translate(-33.03125, -12)" style="" class="label"><rect></rect><foreignobject height="24" width="66.0625"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="nodeLabel">판결 만족?</span></div></foreignobject></g></g><g transform="translate(876.50390625, 5980.03125)" id="flowchart-YY-896" class="node default default flowchart-label"><rect height="39" width="75.1875" y="-19.5" x="-37.59375" ry="0" rx="0" style="" class="basic label-container"></rect><g transform="translate(-30.09375, -12)" style="" class="label"><rect></rect><foreignobject height="24" width="60.1875"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="nodeLabel">항소 검토</span></div></foreignobject></g></g><g transform="translate(876.50390625, 6109.5625)" id="flowchart-ZZ-898" class="node default default flowchart-label"><polygon style="" transform="translate(-60.03125,60.03125)" class="label-container" points="60.03125,0 120.0625,-60.03125 60.03125,-120.0625 0,-60.03125"></polygon><g transform="translate(-33.03125, -12)" style="" class="label"><rect></rect><foreignobject height="24" width="66.0625"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="nodeLabel">항소 진행?</span></div></foreignobject></g></g><g transform="translate(916.13671875, 6263.09375)" id="flowchart-AAA-900" class="node default default flowchart-label"><rect height="39" width="69.734375" y="-19.5" x="-34.8671875" ry="0" rx="0" style="" class="basic label-container"></rect><g transform="translate(-27.3671875, -12)" style="" class="label"><rect></rect><foreignobject height="24" width="54.734375"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="nodeLabel">2심 진행</span></div></foreignobject></g></g><g transform="translate(697.9140625, 6441.09375)" id="flowchart-BBB-906" class="node default default flowchart-label"><rect height="39" width="197.21875" y="-19.5" x="-98.609375" ry="0" rx="0" style="" class="basic label-container"></rect><g transform="translate(-91.109375, -12)" style="" class="label"><rect></rect><foreignobject height="24" width="182.21875"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="nodeLabel">합의서 작성 - 지급 조건 명시</span></div></foreignobject></g></g><g transform="translate(697.9140625, 6530.09375)" id="flowchart-CCC-908" class="node default default flowchart-label"><rect height="39" width="140.1875" y="-19.5" x="-70.09375" ry="0" rx="0" style="fill:#99ff99;" class="basic label-container"></rect><g transform="translate(-62.59375, -12)" style="" class="label"><rect></rect><foreignobject height="24" width="125.1875"><div style="display: inline-block; white-space: nowrap;" xmlns="http://www.w3.org/1999/xhtml"><span class="nodeLabel">합의 완료 사건 종결</span></div></foreignobject></g></g></g></g></g></svg></div></div>
-                </div>
-            </div>
-        </div>
-        
-        <!-- 샘플 템플릿 -->
-        <div class="mt-8 bg-white rounded-lg shadow-md p-6">
-            <h2 class="text-xl font-semibold text-gray-700 mb-4">샘플 템플릿</h2>
-            <div class="grid grid-cols-2 md:grid-cols-4 gap-3">
-                <button onclick="loadTemplate(&#39;flowchart&#39;)" class="bg-blue-100 text-blue-700 py-2 px-4 rounded-lg hover:bg-blue-200 transition-colors text-sm">
-                    플로우차트
-                </button>
-                <button onclick="loadTemplate(&#39;sequence&#39;)" class="bg-green-100 text-green-700 py-2 px-4 rounded-lg hover:bg-green-200 transition-colors text-sm">
-                    시퀀스 다이어그램
-                </button>
-                <button onclick="loadTemplate(&#39;gantt&#39;)" class="bg-yellow-100 text-yellow-700 py-2 px-4 rounded-lg hover:bg-yellow-200 transition-colors text-sm">
-                    간트 차트
-                </button>
-                <button onclick="loadTemplate(&#39;pie&#39;)" class="bg-pink-100 text-pink-700 py-2 px-4 rounded-lg hover:bg-pink-200 transition-colors text-sm">
-                    파이 차트
-                </button>
-            </div>
-        </div>
+  <!-- 헤더 -->
+  <header class="bg-white border-b border-gray-200 py-4">
+    <div class="container mx-auto px-6">
+      <h1 class="text-2xl font-bold text-gray-800">🧜‍♀️ 머메이드 리더 (고화질)</h1>
     </div>
-    
-    <!-- 자르기 모달 -->
-    <div id="cropModal" class="fixed inset-0 bg-black bg-opacity-50 z-50 hidden">
-        <div class="flex items-center justify-center h-full p-4">
-            <div class="bg-white rounded-lg shadow-xl max-w-4xl w-full max-h-[90vh] overflow-auto">
-                <div class="p-6">
-                    <div class="flex justify-between items-center mb-4">
-                        <h3 class="text-xl font-semibold text-gray-700">이미지 자르기</h3>
-                        <button onclick="closeCropModal()" class="text-gray-500 hover:text-gray-700">
-                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
-                            </svg>
-                        </button>
-                    </div>
-                    <div class="relative inline-block">
-                        <canvas id="cropCanvas" class="border border-gray-300"></canvas>
-                        <div id="cropBox" class="absolute border-2 border-blue-500 bg-blue-100 bg-opacity-20 cursor-move hidden" style="width: 0px; height: 0px;"></div>
-                    </div>
-                    <div class="mt-4 flex gap-3">
-                        <button onclick="cropAndDownload()" class="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600 transition-colors">
-                            자른 이미지 다운로드
-                        </button>
-                        <button onclick="resetCrop()" class="bg-gray-500 text-white px-4 py-2 rounded-lg hover:bg-gray-600 transition-colors">
-                            초기화
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-    <script>
-        let cropStartX, cropStartY, cropEndX, cropEndY;
-        let isDragging = false;
-        let isResizing = false;
-        let dragStartX, dragStartY;
-        
-        // 머메이드 초기화
-        mermaid.initialize({ 
-            startOnLoad: false,
-            theme: 'default',
-            themeVariables: {
-                primaryColor: '#3B82F6',
-                primaryTextColor: '#fff',
-                primaryBorderColor: '#2563EB',
-                lineColor: '#6B7280',
-                secondaryColor: '#E5E7EB',
-                tertiaryColor: '#F3F4F6'
-            }
-        });
-        
-        // 머메이드 렌더링
-        async function renderMermaid() {
-            const input = document.getElementById('mermaidInput').value;
-            const output = document.getElementById('mermaidOutput');
-            
-            if (!input.trim()) {
-                output.innerHTML = '<span class="text-red-500">코드를 입력해줘!</span>';
-                return;
-            }
-            
-            try {
-                output.innerHTML = '<div class="mermaid">' + input + '</div>';
-                await mermaid.run();
-            } catch (error) {
-                output.innerHTML = '<span class="text-red-500">에러: ' + error.message + '</span>';
-            }
-        }
-        
-        // 템플릿 로드
-        function loadTemplate(type) {
-            const templates = {
-                flowchart: `graph TD
-    A[시작] --> B{조건 확인}
-    B -->|조건 1| C[프로세스 A]
-    B -->|조건 2| D[프로세스 B]
-    C --> E[결과 처리]
-    D --> E
-    E --> F[종료]`,
-                sequence: `sequenceDiagram
-    participant 사용자
-    participant 서버
-    participant 데이터베이스
-    
-    사용자->>서버: 로그인 요청
-    서버->>데이터베이스: 사용자 정보 조회
-    데이터베이스-->>서버: 사용자 정보 반환
-    서버-->>사용자: 로그인 성공`,
-                gantt: `gantt
-    title 프로젝트 일정
-    dateFormat  YYYY-MM-DD
-    section 기획
-    요구사항 분석     :a1, 2024-01-01, 7d
-    설계             :after a1, 5d
-    section 개발
-    프론트엔드 개발   :2024-01-10, 10d
-    백엔드 개발      :2024-01-12, 8d
-    section 테스트
-    통합 테스트      :2024-01-20, 5d`,
-                pie: `pie title 프로젝트 시간 분배
-    "기획" : 20
-    "디자인" : 15
-    "개발" : 40
-    "테스트" : 15
-    "배포" : 10`
-            };
-            
-            document.getElementById('mermaidInput').value = templates[type];
-            renderMermaid();
-        }
-        
-        // 전체 이미지 다운로드
-        async function downloadFullImage() {
-            const element = document.querySelector('#mermaidOutput svg') || document.querySelector('#mermaidOutput');
-            if (!element || element.innerHTML.includes('여기에 다이어그램이 표시돼')) {
-                alert('먼저 다이어그램을 생성해줘!');
-                return;
-            }
-            
-            try {
-                const canvas = await html2canvas(element, {
-                    backgroundColor: '#ffffff',
-                    scale: 2
-                });
-                
-                const link = document.createElement('a');
-                link.download = 'mermaid-diagram.png';
-                link.href = canvas.toDataURL();
-                link.click();
-            } catch (error) {
-                alert('다운로드 중 오류가 발생했어: ' + error.message);
-            }
-        }
-        
-        // 자르기 모달 열기
-        async function openCropModal() {
-            const element = document.querySelector('#mermaidOutput svg') || document.querySelector('#mermaidOutput');
-            if (!element || element.innerHTML.includes('여기에 다이어그램이 표시돼')) {
-                alert('먼저 다이어그램을 생성해줘!');
-                return;
-            }
-            
-            document.getElementById('cropModal').classList.remove('hidden');
-            
-            const canvas = document.getElementById('cropCanvas');
-            const ctx = canvas.getContext('2d');
-            
-            try {
-                const tempCanvas = await html2canvas(element, {
-                    backgroundColor: '#ffffff',
-                    scale: 2
-                });
-                
-                canvas.width = tempCanvas.width;
-                canvas.height = tempCanvas.height;
-                ctx.drawImage(tempCanvas, 0, 0);
-                
-                setupCropBox();
-            } catch (error) {
-                alert('이미지 로드 중 오류가 발생했어: ' + error.message);
-                closeCropModal();
-            }
-        }
-        
-        // 자르기 박스 설정
-        function setupCropBox() {
-            const canvas = document.getElementById('cropCanvas');
-            const cropBox = document.getElementById('cropBox');
-            
-            canvas.addEventListener('mousedown', startCrop);
-            canvas.addEventListener('mousemove', updateCrop);
-            canvas.addEventListener('mouseup', endCrop);
-            
-            cropBox.addEventListener('mousedown', startDrag);
-        }
-        
-        function startCrop(e) {
-            if (e.target.id === 'cropBox') return;
-            
-            const rect = e.target.getBoundingClientRect();
-            cropStartX = e.clientX - rect.left;
-            cropStartY = e.clientY - rect.top;
-            isResizing = true;
-            
-            const cropBox = document.getElementById('cropBox');
-            cropBox.style.left = cropStartX + 'px';
-            cropBox.style.top = cropStartY + 'px';
-            cropBox.style.width = '0px';
-            cropBox.style.height = '0px';
-            cropBox.classList.remove('hidden');
-        }
-        
-        function updateCrop(e) {
-            if (!isResizing && !isDragging) return;
-            
-            const rect = e.target.getBoundingClientRect();
-            const currentX = e.clientX - rect.left;
-            const currentY = e.clientY - rect.top;
-            
-            if (isResizing) {
-                const width = Math.abs(currentX - cropStartX);
-                const height = Math.abs(currentY - cropStartY);
-                const left = Math.min(currentX, cropStartX);
-                const top = Math.min(currentY, cropStartY);
-                
-                const cropBox = document.getElementById('cropBox');
-                cropBox.style.left = left + 'px';
-                cropBox.style.top = top + 'px';
-                cropBox.style.width = width + 'px';
-                cropBox.style.height = height + 'px';
-                
-                cropEndX = currentX;
-                cropEndY = currentY;
-            } else if (isDragging) {
-                const cropBox = document.getElementById('cropBox');
-                const deltaX = currentX - dragStartX;
-                const deltaY = currentY - dragStartY;
-                
-                const newLeft = parseInt(cropBox.style.left) + deltaX;
-                const newTop = parseInt(cropBox.style.top) + deltaY;
-                
-                cropBox.style.left = newLeft + 'px';
-                cropBox.style.top = newTop + 'px';
-                
-                dragStartX = currentX;
-                dragStartY = currentY;
-            }
-        }
-        
-        function endCrop() {
-            isResizing = false;
-            isDragging = false;
-        }
-        
-        function startDrag(e) {
-            e.stopPropagation();
-            const rect = document.getElementById('cropCanvas').getBoundingClientRect();
-            dragStartX = e.clientX - rect.left;
-            dragStartY = e.clientY - rect.top;
-            isDragging = true;
-        }
-        
-        // 자른 이미지 다운로드
-        function cropAndDownload() {
-            const canvas = document.getElementById('cropCanvas');
-            const cropBox = document.getElementById('cropBox');
-            
-            if (cropBox.classList.contains('hidden')) {
-                alert('먼저 자를 영역을 선택해줘!');
-                return;
-            }
-            
-            const left = parseInt(cropBox.style.left);
-            const top = parseInt(cropBox.style.top);
-            const width = parseInt(cropBox.style.width);
-            const height = parseInt(cropBox.style.height);
-            
-            const tempCanvas = document.createElement('canvas');
-            tempCanvas.width = width;
-            tempCanvas.height = height;
-            const tempCtx = tempCanvas.getContext('2d');
-            
-            tempCtx.drawImage(canvas, left, top, width, height, 0, 0, width, height);
-            
-            const link = document.createElement('a');
-            link.download = 'mermaid-cropped.png';
-            link.href = tempCanvas.toDataURL();
-            link.click();
-        }
-        
-        // 자르기 초기화
-        function resetCrop() {
-            const cropBox = document.getElementById('cropBox');
-            cropBox.classList.add('hidden');
-            cropBox.style.width = '0px';
-            cropBox.style.height = '0px';
-        }
-        
-        // 모달 닫기
-        function closeCropModal() {
-            document.getElementById('cropModal').classList.add('hidden');
-            resetCrop();
-        }
-        
-        // 초기 샘플 로드
-        window.onload = function() {
-            loadTemplate('flowchart');
-        };
-    </script>
+  </header>
 
-<div class="mermaidTooltip" style="opacity: 0;"></div></body></html>
+  <!-- 에디터 & 미리보기 -->
+  <main class="editor-container grid grid-cols-12">
+    <!-- 코드 입력 -->
+    <aside class="col-span-4 editor-sidebar bg-white p-6 space-y-6">
+      <section>
+        <h2 class="text-lg font-semibold mb-3 text-gray-700">머메이드 코드</h2>
+        <textarea id="mermaidInput" class="w-full h-64 p-4 border border-gray-300 rounded-lg font-mono text-sm focus:ring-2 focus:ring-blue-500"></textarea>
+      </section>
+
+      <section class="space-y-3">
+        <button onclick="renderMermaid()" class="w-full bg-blue-500 text-white py-2 rounded-lg hover:bg-blue-600">시각화하기</button>
+        <div class="flex gap-2">
+          <button onclick="toggleTheme()" class="flex-1 bg-gray-500 text-white py-2 rounded-lg hover:bg-gray-600 text-sm">테마 변경</button>
+          <button onclick="clearDiagram()" class="flex-1 bg-red-500 text-white py-2 rounded-lg hover:bg-red-600 text-sm">초기화</button>
+        </div>
+      </section>
+
+      <section>
+        <h3 class="text-sm font-semibold mb-2 text-gray-700">샘플 템플릿</h3>
+        <div class="grid grid-cols-2 gap-2">
+          <button onclick="loadTemplate('flowchart')"  class="bg-blue-100 text-blue-700  py-2 px-3 rounded-lg hover:bg-blue-200  text-sm">플로우차트</button>
+          <button onclick="loadTemplate('sequence')"  class="bg-green-100 text-green-700  py-2 px-3 rounded-lg hover:bg-green-200 text-sm">시퀀스</button>
+          <button onclick="loadTemplate('gantt')"     class="bg-yellow-100 text-yellow-700 py-2 px-3 rounded-lg hover:bg-yellow-200 text-sm">간트 차트</button>
+          <button onclick="loadTemplate('pie')"       class="bg-pink-100 text-pink-700   py-2 px-3 rounded-lg hover:bg-pink-200   text-sm">파이 차트</button>
+          <button onclick="loadTemplate('er')"        class="bg-purple-100 text-purple-700 py-2 px-3 rounded-lg hover:bg-purple-200 text-sm">ER 다이어그램</button>
+          <button onclick="loadTemplate('journey')"   class="bg-indigo-100 text-indigo-700 py-2 px-3 rounded-lg hover:bg-indigo-200 text-sm">사용자 여정</button>
+        </div>
+      </section>
+    </aside>
+
+    <!-- 미리보기 -->
+    <section class="col-span-8 preview-container">
+      <div class="preview-content"><div id="mermaidOutput" class="text-gray-400">여기에 다이어그램이 표시돼</div></div>
+    </section>
+  </main>
+
+  <!-- 확대/축소 + 다운로드 컨트롤 -->
+  <div class="action-panel flex flex-wrap gap-2">
+    <button onclick="zoomOut()"  class="p-2 bg-gray-100 rounded hover:bg-gray-200" title="축소">－</button>
+    <span   id="zoomLevel" class="px-3 py-2 bg-gray-100 rounded text-sm min-w-[70px] text-center">100%</span>
+    <button onclick="zoomIn()"   class="p-2 bg-gray-100 rounded hover:bg-gray-200" title="확대">＋</button>
+    <button onclick="resetZoom()"class="p-2 bg-gray-100 rounded hover:bg-gray-200" title="원본">◎</button>
+    <button onclick="downloadSvg()" class="p-2 bg-blue-500 text-white rounded hover:bg-blue-600 text-sm">SVG</button>
+    <button onclick="downloadPng()" class="p-2 bg-green-500 text-white rounded hover:bg-green-600 text-sm">PNG</button>
+  </div>
+
+<script>
+/* ========= 전역 ========= */
+let currentZoom = 1;
+let currentTheme = 'default';
+
+/* ========= Mermaid 초기화 ========= */
+mermaid.initialize({
+  startOnLoad:false,
+  theme:currentTheme,
+  maxTextSize:50000,
+  maxEdges:5000,
+  htmlLabels:true,
+  flowchart:{ htmlLabels:true,useMaxWidth:false,curve:'basis',rankSpacing:50,nodeSpacing:50,padding:15,wrap:false }
+});
+
+/* ========= Mermaid 렌더 ========= */
+async function renderMermaid(){
+  const code = mermaidInput.value.trim();
+  if(!code){ mermaidOutput.innerHTML='<span class="text-red-500">코드를 입력해줘!</span>'; return; }
+
+  const temp = document.createElement('div');
+  temp.style.position='absolute';
+  temp.style.left='-9999px';
+  temp.innerHTML = `<div class="mermaid">${code}</div>`;
+  document.body.appendChild(temp);
+  await mermaid.run({nodes:temp.querySelectorAll('.mermaid')});
+
+  const svg = temp.querySelector('svg');
+  if(!svg){ mermaidOutput.textContent='렌더링 실패'; temp.remove(); return; }
+
+  const pad = parseInt(getComputedStyle(document.documentElement).getPropertyValue('--padding'));
+  const box = svg.getBBox();
+  svg.setAttribute('viewBox',`${box.x-pad} ${box.y-pad} ${box.width+pad*2} ${box.height+pad*2}`);
+  svg.setAttribute('width', box.width+pad*2);
+  svg.setAttribute('height',box.height+pad*2);
+  svg.removeAttribute('style');
+
+  mermaidOutput.innerHTML='';
+  mermaidOutput.appendChild(svg.cloneNode(true));
+  temp.remove();
+  applyZoom();
+}
+
+/* ========= 확대/축소 ========= */
+function applyZoom(){
+  const svg = mermaidOutput.querySelector('svg'); if(!svg) return;
+  svg.style.transform=`scale(${currentZoom})`;
+
+  const w=parseFloat(svg.getAttribute('width'))||0;
+  const h=parseFloat(svg.getAttribute('height'))||0;
+  document.querySelector('.preview-content').style.minWidth = w*currentZoom+100+'px';
+  document.querySelector('.preview-content').style.minHeight= h*currentZoom+100+'px';
+  zoomLevel.textContent=`${Math.round(currentZoom*100)}%`;
+}
+function zoomIn(){  if(currentZoom<3){ currentZoom+=.25; applyZoom(); } }
+function zoomOut(){ if(currentZoom>.25){ currentZoom-=.25; applyZoom(); } }
+function resetZoom(){ currentZoom=1; applyZoom(); }
+
+/* ========= 테마 토글 ========= */
+function toggleTheme(){
+  const t=['default','dark','forest','neutral'];
+  currentTheme=t[(t.indexOf(currentTheme)+1)%t.length];
+  mermaid.initialize({startOnLoad:false,theme:currentTheme});
+  renderMermaid();
+}
+
+/* ========= 초기화 ========= */
+function clearDiagram(){
+  mermaidInput.value='';
+  mermaidOutput.textContent='여기에 다이어그램이 표시돼';
+  resetZoom();
+}
+
+/* ========= 템플릿 ========= */
+function loadTemplate(type){
+  const T={
+    flowchart:`graph TD
+  A[시작] --> B{조건 확인}
+  B -->|조건 1| C[프로세스 A]
+  B -->|조건 2| D[프로세스 B]
+  C --> E[결과 처리]
+  D --> E
+  E --> F[종료]
+
+  style A fill:#e1f5e1
+  style F fill:#ffe1e1
+  style B fill:#e1e5ff`,
+    sequence:`sequenceDiagram
+  participant 사용자
+  participant 서버
+  participant DB
+
+  사용자->>서버: 로그인 요청
+  activate 서버
+  서버->>DB: 사용자 조회
+  activate DB
+  DB-->>서버: 정보 반환
+  deactivate DB
+  서버-->>사용자: 성공
+  deactivate 서버`,
+    gantt:`gantt
+  title 프로젝트 일정
+  dateFormat  YYYY-MM-DD
+  section 기획
+  요구사항 분석     :done, a1, 2024-01-01, 7d
+  설계             :active, after a1, 5d
+  section 개발
+  프론트엔드 개발   :crit, 2024-01-10, 10d
+  백엔드 개발      :2024-01-12, 8d
+  section 테스트
+  통합 테스트      :2024-01-20, 5d`,
+    pie:`pie title 프로젝트 시간
+  "기획" : 20
+  "디자인" : 15
+  "개발" : 40
+  "테스트" : 15
+  "배포" : 10`,
+    er:`erDiagram
+  CUSTOMER ||--o{ ORDER : places
+  ORDER ||--|{ LINE-ITEM : contains
+  CUSTOMER { string name string custNumber string sector }
+  ORDER { int orderNumber string deliveryAddress date orderDate }
+  LINE-ITEM { string productCode int quantity float pricePerUnit }`,
+    journey:`journey
+  title 쇼핑 여정
+  section 검색
+    홈페이지 방문: 5: 사용자
+    검색: 4: 사용자
+  section 결정
+    상세 보기: 5: 사용자
+    리뷰 확인: 4: 사용자
+    장바구니: 5: 사용자
+  section 결제
+    정보 입력: 3: 사용자
+    주문 완료: 5: 사용자`
+  };
+  mermaidInput.value=T[type]; renderMermaid();
+}
+
+/* ========= 다운로드: SVG ========= */
+function downloadSvg(){
+  const svg = mermaidOutput.querySelector('svg'); if(!svg) return alert('먼저 시각화해');
+  const cloned=svg.cloneNode(true); cloned.removeAttribute('style');
+  const blob=new Blob([cloned.outerHTML],{type:'image/svg+xml;charset=utf-8'});
+  const url = URL.createObjectURL(blob);
+  const a=document.createElement('a'); a.href=url; a.download='diagram.svg';
+  document.body.appendChild(a); a.click(); a.remove(); URL.revokeObjectURL(url);
+}
+
+/* ========= 다운로드: PNG ========= */
+async function downloadPng(){
+  const svg = mermaidOutput.querySelector('svg'); if(!svg) return alert('먼저 시각화해');
+
+  const { Canvg } = window.canvg || {}; // canvg UMD 네임스페이스
+  if(!Canvg) return alert('canvg 로드 실패');
+
+  const svgData = new XMLSerializer().serializeToString(svg);
+  const { width, height } = svg.getBBox();
+  const scale = 4;          // 출력 배율
+  const canvas = document.createElement('canvas');
+  canvas.width  = width  * scale;
+  canvas.height = height * scale;
+
+  const ctx = canvas.getContext('2d');
+  const v   = await Canvg.fromString(ctx, svgData);
+  await v.render();
+
+  canvas.toBlob(blob=>{
+    const url = URL.createObjectURL(blob);
+    const a   = document.createElement('a');
+    a.href=url; a.download='diagram.png';
+    document.body.appendChild(a); a.click(); a.remove(); URL.revokeObjectURL(url);
+  });
+}
+
+/* ========= 로드시 샘플 ========= */
+window.onload=()=>loadTemplate('flowchart');
+</script>
+</body>
+</html>
